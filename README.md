@@ -24,10 +24,10 @@ After fulfilling the requirements' mentioned before, please follow the next step
 1. Download a local version of the project in your machine
 2. Modify entery parameters in the script called "SearchEngine.py" to match your search (domain, field....)
 3. Fill in the variable PATH with the local absolute path of your ChromeDriver in both SearchEngine.py and WebScraper.py scripts
-4. In your terminal navigate to your project folder then type and excute the next command: 
+4. In your terminal navigate to your project folder then type and excute the next command: \
 `py SearchEngine.py`
 5. A json file called "ToScrape.json" is created in you project folder. This file contains the IDs of the resourses matching the anterior search and their respective titles.
-6. In your terminal, supposing that you are still in the project's folder, type and excute the next command: \n
+6. In your terminal, supposing that you are still in the project's folder, type and excute the next command: \
 `py WebScraper.py`
 
 
