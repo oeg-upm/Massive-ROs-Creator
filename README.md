@@ -1,4 +1,15 @@
-# Tutorial-acronym
-Website for the tutorial **tutorial-title** at **event**
+#Requirements:
+##Python 3 or superior
+##pip installation
+##Selenium library installation
+##Download the newest version of chromedriver
+##ROHub library installation
 
-Based on the original work from David Chaves-Fraga and Ana Iglesias-Molina on the KGC2020 tutorial at ISWC2020
+
+#How to use Massive-ROs-Creator:
+After completing the steps in the requirements' section, please follow the next steps to excute the program:
+
+1. Download a local version of the project in your machine
+2. Modify entery parameters in the script called "SearchEngine.py" to match your search (domain, field....)
+3. Fill in the variable PATH
+
