@@ -1,3 +1,11 @@
+# Massive-ROs-Creator
+## Author: George Hadib
+
+# Description:
+Massive ROs Creator is a python program that, given a group of search parameters, navigates to the Norwegian Research Data Archive (NIRD), realizes an advanced search and recovers data from the resources obtained by this search.
+The program is set to insert this data into ROs in the ROHub platform. A functionality that will be added in posterior versions.
+The program uses automated web navigation in the local machine where it is being excuted.
+
 # Requirements:
 
 ## Python 3 or superior:
