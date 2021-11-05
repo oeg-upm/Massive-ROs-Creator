@@ -10,7 +10,7 @@ field = "Earth science"
 subfield = ""
 description = "climate"
 #######################################
-
+#Please don't remove the "r" before tha path variable
 PATH = r'Here goes an absolute location of your Chromedriver'
 driver = webdriver.Chrome(PATH)
 link = "https://archive.sigma2.no/pages/public/search.jsf"
