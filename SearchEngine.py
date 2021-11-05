@@ -100,7 +100,7 @@ while (1):
 	except:
 		NoSuchElementException:	print (list_of_ids)
 		print("Your querey was excuted correctly and information was saved")
-		f = open("ToScrape.json", "w")
+		f = open("Massive-ROs-Creator\ToScrape.json", "w")
 		f.write(json.dumps(list_of_ids))
 		f.close()
 		exit()
