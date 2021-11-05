@@ -32,5 +32,7 @@ After fulfilling the requirements' mentioned before, please follow the next step
 5. A json file called "ToScrape.json" is created in you project folder. This file contains the IDs of the resourses matching the anterior search and their respective titles.
 6. In your terminal, supposing that you are still in the project's folder, type and excute the next command: \
 `py WebScraper.py`
+7. 5. A json file called "ROs.json" is created in you project folder. This file contains the data of the resources recovered after navegating  the search results one by one.
+8. To be continued
 
 
