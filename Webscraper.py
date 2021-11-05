@@ -5,7 +5,7 @@ from html.parser import HTMLParser
 
 PATH = r'Here goes the absolute location of your webdriver'
 driver = webdriver.Chrome(PATH)
-f = open("ToScrape.json", "r")
+f = open("Massive-ROs-Creator\ToScrape.json", "r")
 entry_json = f.read()
 f.close()
 entry_dictionary = json.loads(entry_json)
@@ -72,7 +72,7 @@ for i in range (0, len(entry_dictionary)):
 #print (RO)
 #app_json = json.dumps(RO, sort_keys=True)
 
-f = open("ROs.json", "w")
+f = open("Massive-ROs-Creator\ROs.json", "w")
 f.write(json.dumps(result_list))
 f.close()
 ####################################### This app creates a json file in your working directory ############################################
