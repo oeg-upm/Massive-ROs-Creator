@@ -1,7 +1,12 @@
 # Requirements:
-## Python 3 or superior
-## pip installation
-## Selenium library installation
+## Python 3 or superior:
+Make sure to have a version 3+ python installed in your machine.
+You can install python from: https://www.python.org/downloads/
+## pip installation:
+Usually, pip is automatically installed. In case it's not, please install it following the steps in: https://pip.pypa.io/en/stable/installation/
+## Selenium library installation:
+In your python terminal, type the next command:
+`<addr>` pip install selenium
 ## Download the newest version of chromedriver
 ## ROHub library installation
 
