@@ -1,12 +1,12 @@
-#Requirements:
-##Python 3 or superior
-##pip installation
-##Selenium library installation
-##Download the newest version of chromedriver
-##ROHub library installation
+# Requirements:
+## Python 3 or superior
+## pip installation
+## Selenium library installation
+## Download the newest version of chromedriver
+## ROHub library installation
 
 
-#How to use Massive-ROs-Creator:
+# How to use Massive-ROs-Creator:
 After completing the steps in the requirements' section, please follow the next steps to excute the program:
 
 1. Download a local version of the project in your machine
