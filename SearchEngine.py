@@ -54,6 +54,7 @@ try:
 	list_of_content = content.find_elements_by_class_name("rf-edt-c-cnt")
 except:
 	NoSuchElementException: print ("There is no results for your search. Please modify your enteries and try again")
+	driver.quit()
 	exit()
 
 for i in range (0, len(list_of_content),5):
@@ -103,6 +104,7 @@ while (1):
 		f = open("Massive-ROs-Creator\ToScrape.json", "w")
 		f.write(json.dumps(list_of_ids))
 		f.close()
+		driver.quit()
 		exit()
 
 ############################################ This program creates a json file in your working directory #################################################
