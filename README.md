@@ -2,7 +2,7 @@
 
 ## Python 3 or superior:
 Make sure to have a version 3+ python installed in your machine. 
-You can install python from: \ 
+You can install python from: \
 https://www.python.org/downloads/ \
 
 ## pip installation:
