@@ -27,7 +27,7 @@ After fulfilling the requirements' mentioned before, please follow the next step
 4. In your terminal navigate to your project folder then type and excute the next command: 
 `py SearchEngine.py`
 5. A json file called "ToScrape.json" is created in you project folder. This file contains the IDs of the resourses matching the anterior search and their respective titles.
-6. In your terminal, supposing that you are still in the project's folder, type and excute the next command: /n
+6. In your terminal, supposing that you are still in the project's folder, type and excute the next command: \n
 `py WebScraper.py`
 
 
