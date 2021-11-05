@@ -5,8 +5,8 @@ You can install python from: https://www.python.org/downloads/
 ## pip installation:
 Usually, pip is automatically installed. In case it's not, please install it following the steps in: https://pip.pypa.io/en/stable/installation/
 ## Selenium library installation:
-In your python terminal, type the next command:
-`<addr>` pip install selenium
+In your shell, type the next command:
+`pip install selenium` 
 ## Download the newest version of chromedriver
 ## ROHub library installation
 
