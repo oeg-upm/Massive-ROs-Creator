@@ -175,7 +175,7 @@ else:
 					#print ("este es "+list_of_content[2])
 
 				except:
-					NoSuchElementException:	list_of_ids.append({category+ "Resources":list_per_category})
+					NoSuchElementException:	list_of_ids[category]=list_per_category
 					break
 
 
