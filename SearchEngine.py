@@ -37,7 +37,7 @@ if (not field==""):
 if (not subfield==""):
 	subfield_menu = Select(driver.find_element_by_id("searchForm:subfieldMenu"))
 	subfield_menu.select_by_visible_text(subfield)
-list_of_ids = []
+list_of_ids = {}
 
 #Add description
 if (not len(description_keywords)==0):
@@ -72,8 +72,7 @@ if (not len(description_keywords)==0):
 				list_of_content[i+2] = list_of_content[i+2][list_of_content[i+2].find(""";">""")+3:list_of_content[i+2].find("""</a>""")]
 				new_ro = {"id":list_of_content[i],"title":list_of_content[i+2]}
 				#print (list_of_content[i])
-				if new_ro not in list_per_category:
-					list_per_category.append(new_ro)
+				list_per_category.append(new_ro)
 
 			page_counter = 2
 
@@ -106,7 +105,14 @@ if (not len(description_keywords)==0):
 					#print ("este es "+list_of_content[2])
 
 				except:
-					NoSuchElementException:	list_of_ids.append({"Category" : category, "Resources":list_per_category})
+					NoSuchElementException:	print ("Please wait while the webpage is being scraped...")
+					if category in list_of_ids.keys():
+						for resource in list_per_category:
+							if not resource in list_of_ids.get(category):
+								list_of_ids.get(category).append(resource)
+						
+					else:
+						list_of_ids[category]=list_per_category
 					break
 
 else:
@@ -136,8 +142,7 @@ else:
 				list_of_content[i+2] = list_of_content[i+2][list_of_content[i+2].find(""";">""")+3:list_of_content[i+2].find("""</a>""")]
 				new_ro = {"id":list_of_content[i],"title":list_of_content[i+2]}
 				#print (list_of_content[i])
-				if new_ro not in list_per_category:
-					list_per_category.append(new_ro)
+				list_per_category.append(new_ro)
 
 			page_counter = 2
 
@@ -170,7 +175,7 @@ else:
 					#print ("este es "+list_of_content[2])
 
 				except:
-					NoSuchElementException:	list_of_ids.append({"Category" : category, "Resources":list_per_category})
+					NoSuchElementException:	list_of_ids.append({category+ "Resources":list_per_category})
 					break
 
 
