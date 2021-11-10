@@ -27,9 +27,12 @@ for category in entry_dictionary.keys():
 		td_list = []
 		for element in td_raw_list:
 			td_list.append(element.get_attribute("innerHTML"))
-		id = link [link.find("=")+1:]
+		id = ro.get("id")
 		td_list[1] = td_list[1][0:td_list[1].find("<button")]
-		title = td_list[1]
+		title =  driver.find_element_by_xpath("""//*[@id="datasetDetailForm:datasetDetialPNG"]/div[1]/div/div[1]""").get_attribute("innerHTML")
+
+
+		
 		td_list[5] = td_list[5].replace("Domain: ","")
 		td_list[5] = td_list[5].replace("Field: ","")
 		td_list[5] = td_list[5].replace("Subfield: ","")
@@ -41,11 +44,16 @@ for category in entry_dictionary.keys():
 		td_list[16] = td_list[16][td_list[16].find(""""h""")+1:td_list[16].find("""" """)]
 		td_list[18] = td_list[18][td_list[18].find(">")+28:td_list[18].find("\n")]
 		#td_list[18]:description
-		description = td_list[18]
+		description = driver.find_element_by_xpath("""//*[@id="linkify-example"]""").get_attribute("innerHTML")[27:]
+	
 		td_list[20] = td_list[20][td_list[20].find("""rf-dt-c">""")+9:td_list[20].find("</td")]
-		science_publication = td_list[20]
+		science_publication = driver.find_element_by_xpath("""//*[@id="datasetDetailForm:j_idt106:0:j_idt107"]""").get_attribute("innerHTML")
+		
+		
 		td_list[24] = td_list[24][td_list[24].find("""rf-dt-c">""")+9:td_list[24].find("</td")]
-		rights_holder = td_list[24]
+		rights_holder = driver.find_element_by_xpath("""//*[@id="datasetDetailForm:j_idt111:0:j_idt112"]""").get_attribute("innerHTML")
+
+		
 		td_list[28] = td_list[28][td_list[28].find("""rf-dt-c">""")+9:td_list[28].find("</td")]
 		data_manager = td_list[28]
 		td_list[32] = td_list[32][td_list[32].find("""rf-dt-c">""")+9:td_list[32].find("</td")]
