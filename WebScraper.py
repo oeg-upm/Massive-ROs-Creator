@@ -2,6 +2,7 @@ import selenium
 import json
 from selenium import webdriver
 from html.parser import HTMLParser
+import time
 
 PATH = r'C:\Users\Geo\Downloads\chromedriver_win32\chromedriver.exe'
 driver = webdriver.Chrome(PATH)
@@ -12,7 +13,7 @@ entry_dictionary = json.loads(entry_json)
 result_list = []
 for category in entry_dictionary.keys():
 	for ro in entry_dictionary.get(category):
-		print(ro)
+		#print(ro)
 
 		# The following link is an example
 		link = "https://archive.sigma2.no/pages/public/datasetDetail.jsf?id="+ro.get("id")
@@ -29,7 +30,7 @@ for category in entry_dictionary.keys():
 			td_list.append(element.get_attribute("innerHTML"))
 		id = ro.get("id")
 		td_list[1] = td_list[1][0:td_list[1].find("<button")]
-		title =  driver.find_element_by_xpath("""//*[@id="datasetDetailForm:datasetDetialPNG"]/div[1]/div/div[1]""").get_attribute("innerHTML")
+		title =  ro.get("title")
 
 
 		
@@ -60,21 +61,49 @@ for category in entry_dictionary.keys():
 		depositor = td_list[32]
 		citationHTML = element_0.find_elements_by_id ("citationAPA")
 		citation = citationHTML[0].find_elements_by_tag_name("div")[0].get_attribute("innerHTML")
+		try:
+			driver.find_element_by_xpath("""//*[@id="lp_initial"]/table[1]/tbody/tr[15]/td[2]/a/img""").click()
+			driver.switch_to.window(driver.window_handles[1])
+			time.sleep(1)
+			try:
+				geolocation = driver.find_element_by_xpath("""//*[@id="j_idt56:0:j_idt57"]""").get_attribute("innerHTML")
+				driver.close()
+				driver.switch_to.window(driver.window_handles[0])
+			except:
+				driver.close()
+				driver.switch_to.window(driver.window_handles[0])
+			
+			RO = {	"id": id, 
+					"type": category, 
+					"name":title, 
+					"description":description, 
+					"url":link, 
+					"research area":td_list[5], 
+					"created on": td_list[8],
+					"Creator":td_list[10], 
+					"license":td_list[16], 
+					"science publication":science_publication, 
+					"rights holder":rights_holder, 
+					"data manager": data_manager, 
+					"depositor":depositor, 
+					"citation":citation,
+					"geolocation": geolocation}
 
-		RO = {	"id": id, 
-				"type": category, 
-				"name":title, 
-				"description":description, 
-				"url":link, 
-				"research area":td_list[5], 
-				"created on": td_list[8],
-				"Creator":td_list[10], 
-				"license":td_list[16], 
-				"science publication":science_publication, 
-				"rights holder":rights_holder, 
-				"data manager": data_manager, 
-				"depositor":depositor, 
-				"citation":citation}
+		except:
+			RO = {	"id": id, 
+					"type": category, 
+					"name":title, 
+					"description":description, 
+					"url":link, 
+					"research area":td_list[5], 
+					"created on": td_list[8],
+					"Creator":td_list[10], 
+					"license":td_list[16], 
+					"science publication":science_publication, 
+					"rights holder":rights_holder, 
+					"data manager": data_manager, 
+					"depositor":depositor, 
+					"citation":citation}
 				
 		result_list.append(RO)
 
