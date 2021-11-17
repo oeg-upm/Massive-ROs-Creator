@@ -48,17 +48,60 @@ for category in entry_dictionary.keys():
 		description = driver.find_element_by_xpath("""//*[@id="linkify-example"]""").get_attribute("innerHTML")[27:]
 	
 		td_list[20] = td_list[20][td_list[20].find("""rf-dt-c">""")+9:td_list[20].find("</td")]
-		science_publication = driver.find_element_by_xpath("""//*[@id="datasetDetailForm:j_idt106:0:j_idt107"]""").get_attribute("innerHTML")
+		publication_list = []
+		counter = 0
+		while(1):
+			try:
+				publication_list.append(str(driver.find_element_by_xpath("""//*[@id="datasetDetailForm:j_idt106:"""+str(counter)+""":j_idt107"]""").get_attribute("innerHTML")))
+				counter = counter+1                                    
+			except:
+				break
 		
-		
+		for publication in publication_list:
+			pub_index = publication_list.index(publication)
+			if "Published :" in publication:
+				if "DOI: " in publication:
+					index = publication.find("DOI: ")
+					pub_aux = publication[index+5:publication.find(",")]
+					if pub_aux == "":
+						#print ("breakpoint 1")
+						#print (publication)
+						publication = publication[index+5:]
+						#print (publication)
+
+					else:
+						publication = pub_aux
+					publication = publication.replace("DOI:","")
+					publication = publication.replace("doi:","")
+					if not "https:" in publication:
+						publication = "https://doi.org/" + publication
+				elif "DOI:" in publication:
+					index = publication.find("DOI:")
+					publication = publication[index+4:]
+					if not "https:" in publication:
+						publication = "https://doi.org/" + publication
+				elif "https" in publication:
+					publication = publication[publication.find("https:"):]
+			if "URL:" in publication:
+				index = publication.find("URL:")
+				if "<a href" in publication:
+					publication = publication[index+14:publication.find("""" """)]
+			
+			publication = publication.replace ("DOI: ","")
+			if """target=""" in publication:
+				publication = publication [:publication.find("target=")-2]
+			publication = publication.replace(" (primary)","")
+			publication = publication.replace(" (primary","")
+			publication_list[pub_index] = publication
+			
 		td_list[24] = td_list[24][td_list[24].find("""rf-dt-c">""")+9:td_list[24].find("</td")]
 		rights_holder = driver.find_element_by_xpath("""//*[@id="datasetDetailForm:j_idt111:0:j_idt112"]""").get_attribute("innerHTML")
 
 		
 		td_list[28] = td_list[28][td_list[28].find("""rf-dt-c">""")+9:td_list[28].find("</td")]
-		data_manager = td_list[28]
+		data_manager = driver.find_element_by_xpath("""//*[@id="datasetDetailForm:j_idt116:0:j_idt117"]""").get_attribute("innerHTML")
 		td_list[32] = td_list[32][td_list[32].find("""rf-dt-c">""")+9:td_list[32].find("</td")]
-		depositor = td_list[32]
+		depositor = driver.find_element_by_xpath("""//*[@id="datasetDetailForm:j_idt121:0:j_idt122"]""").get_attribute("innerHTML")
 		citationHTML = element_0.find_elements_by_id ("citationAPA")
 		citation = citationHTML[0].find_elements_by_tag_name("div")[0].get_attribute("innerHTML")
 		try:
@@ -82,7 +125,7 @@ for category in entry_dictionary.keys():
 					"created on": td_list[8],
 					"Creator":td_list[10], 
 					"license":td_list[16], 
-					"science publication":science_publication, 
+					"science publication":publication_list, 
 					"rights holder":rights_holder, 
 					"data manager": data_manager, 
 					"depositor":depositor, 
@@ -99,7 +142,7 @@ for category in entry_dictionary.keys():
 					"created on": td_list[8],
 					"Creator":td_list[10], 
 					"license":td_list[16], 
-					"science publication":science_publication, 
+					"science publication":publication_list, 
 					"rights holder":rights_holder, 
 					"data manager": data_manager, 
 					"depositor":depositor, 
