@@ -78,7 +78,7 @@ for category in entry_dictionary.keys():
 				elif "DOI:" in publication:
 					index = publication.find("DOI:")
 					publication = publication[index+4:]
-					if not "https:" in publication:
+					if not ("https:" in publication or "http" in publication):
 						publication = "https://doi.org/" + publication
 				elif "https" in publication:
 					publication = publication[publication.find("https:"):]
