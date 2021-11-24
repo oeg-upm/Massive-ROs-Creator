@@ -29,6 +29,10 @@ https://chromedriver.chromium.org/downloads
 In your terminal, type and excute the next command: \
 `pip install rohub` 
 
+## Regex library instalition
+In your terminal, type and excute the next command: \
+`pip install regex` 
+
 # How to use Massive-ROs-Creator?
 After fulfilling the requirements' mentioned before, please follow the next steps to excute the program:
 
