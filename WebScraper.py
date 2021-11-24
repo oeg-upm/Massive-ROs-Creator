@@ -3,8 +3,10 @@ import json
 from selenium import webdriver
 from html.parser import HTMLParser
 import time
+import re
 
-PATH = r'C:\Users\Geo\Downloads\chromedriver_win32\chromedriver.exe'
+
+PATH = r'C:\Users\Geo\Downloads\chromedriver.exe'
 driver = webdriver.Chrome(PATH)
 f = open("Massive-ROs-Creator\ToScrape.json", "r")
 entry_json = f.read()
@@ -41,8 +43,12 @@ for category in entry_dictionary.keys():
 		#td_list[8]:created_on (clean) (format yyyy-mm-dd)
 		td_list[10] = td_list[10][td_list[10].find("""rf-dt-c">""")+9:td_list[10].find("</td>")]
 		#td_list[10]:creator (clean)
-		#td_list[16]:license (needs parsing) (Ask Esteban)
-		td_list[16] = td_list[16][td_list[16].find(""""h""")+1:td_list[16].find("""" """)]
+	
+		license = driver.find_element_by_xpath("""//*[@id="lp_initial"]/table[1]/tbody/tr[7]/td[2]""").get_attribute("innerHTML")
+		license = license [license.find("http"):]
+		license = license [:license.find("""" """)]
+
+
 		td_list[18] = td_list[18][td_list[18].find(">")+28:td_list[18].find("\n")]
 		#td_list[18]:description
 		description = driver.find_element_by_xpath("""//*[@id="linkify-example"]""").get_attribute("innerHTML")[27:]
@@ -115,7 +121,7 @@ for category in entry_dictionary.keys():
 			except:
 				driver.close()
 				driver.switch_to.window(driver.window_handles[0])
-			
+			geolocation = re.sub(re.compile('<.*?>'), '', geolocation)
 			RO = {	"id": id, 
 					"type": category, 
 					"name":title, 
@@ -124,7 +130,7 @@ for category in entry_dictionary.keys():
 					"research area":td_list[5], 
 					"created on": td_list[8],
 					"Creator":td_list[10], 
-					"license":td_list[16], 
+					"license": license, 
 					"science publication":publication_list, 
 					"rights holder":rights_holder, 
 					"data manager": data_manager, 
@@ -141,7 +147,7 @@ for category in entry_dictionary.keys():
 					"research area":td_list[5], 
 					"created on": td_list[8],
 					"Creator":td_list[10], 
-					"license":td_list[16], 
+					"license":license, 
 					"science publication":publication_list, 
 					"rights holder":rights_holder, 
 					"data manager": data_manager, 
