@@ -11,7 +11,7 @@ subfield = ""
 description_keywords = ["air", "climate"]
 categories = ["Experiment", "Observation", "Model", "Simulation", "Software", "Image", "Calibration"]
 
-PATH = r'C:\Users\Geo\Downloads\chromedriver_win32\chromedriver.exe'
+PATH = r'Here goes a local link to your chromedriver'
 driver = webdriver.Chrome(PATH)
 link = "https://archive.sigma2.no/pages/public/search.jsf"
 
