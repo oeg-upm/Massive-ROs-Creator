@@ -6,7 +6,7 @@ import time
 import re
 
 
-PATH = r'C:\Users\Geo\Downloads\chromedriver.exe'
+PATH = r'Here goes a local link to your ChromeDriver'
 driver = webdriver.Chrome(PATH)
 f = open("Massive-ROs-Creator\ToScrape.json", "r")
 entry_json = f.read()
