@@ -5,13 +5,14 @@ from selenium.webdriver.support.ui import Select
 from selenium.common.exceptions import NoSuchElementException
 import time
 
-domain = "Natural sciences"
-field = "Earth science"
-subfield = ""
-description_keywords = ["air", "climate"]
-categories = ["Experiment", "Observation", "Model", "Simulation", "Software", "Image", "Calibration"]
 
-PATH = r'Here goes a local link to your chromedriver'
+domain = ""
+field = ""
+subfield = ""
+description_keywords = []
+categories = ["Experiment", "Observation", "Model", "Simulation", "Software", "Image"]
+
+PATH = r'C:\Users\Geo\Downloads\chromedriver_win32\chromedriver.exe'
 driver = webdriver.Chrome(PATH)
 link = "https://archive.sigma2.no/pages/public/search.jsf"
 
@@ -72,7 +73,12 @@ if (not len(description_keywords)==0):
 				list_of_content[i+2] = list_of_content[i+2][list_of_content[i+2].find(""";">""")+3:list_of_content[i+2].find("""</a>""")]
 				new_ro = {"id":list_of_content[i],"title":list_of_content[i+2]}
 				#print (list_of_content[i])
-				list_per_category.append(new_ro)
+				already_exists = False
+				for cat in categories:
+					if cat in list_of_ids and new_ro in list_of_ids[cat]:
+						already_exists = True
+				if not already_exists:	
+					list_per_category.append(new_ro)
 
 			page_counter = 2
 
@@ -99,7 +105,13 @@ if (not len(description_keywords)==0):
 						#print (list_of_content[i])
 						new_ro = {"id":list_of_content[i],"title":list_of_content[i+2]}
 						#print (list_of_content[i])
-						list_per_category.append(new_ro)
+
+						already_exists = False
+						for cat in categories:
+							if cat in list_of_ids and new_ro in list_of_ids[cat]:
+								already_exists = True
+						if not already_exists:	
+							list_per_category.append(new_ro)
 
 					page_counter+=1
 					#print ("este es "+list_of_content[2])
@@ -130,7 +142,7 @@ else:
 				content = driver.find_element_by_id("searchresult-section")
 				list_of_content = content.find_elements_by_class_name("rf-edt-c-cnt")
 			except:
-				NoSuchElementException: print ("There is no results for your search. Please modify your enteries and try again")
+				NoSuchElementException: print ("There is no results for your search in " +category+". Please modify your enteries and try again")
 				continue
 				
 			for i in range (0, len(list_of_content),5):
@@ -142,7 +154,12 @@ else:
 				list_of_content[i+2] = list_of_content[i+2][list_of_content[i+2].find(""";">""")+3:list_of_content[i+2].find("""</a>""")]
 				new_ro = {"id":list_of_content[i],"title":list_of_content[i+2]}
 				#print (list_of_content[i])
-				list_per_category.append(new_ro)
+				already_exists = False
+				for cat in categories:
+					if cat in list_of_ids and new_ro in list_of_ids[cat]:
+						already_exists = True
+				if not already_exists:	
+					list_per_category.append(new_ro)
 
 			page_counter = 2
 
@@ -169,23 +186,41 @@ else:
 						#print (list_of_content[i])
 						new_ro = {"id":list_of_content[i],"title":list_of_content[i+2]}
 						#print (list_of_content[i])
-						list_per_category.append(new_ro)
+						already_exists = False
+						for cat in categories:
+							if cat in list_of_ids and new_ro in list_of_ids[cat]:
+								already_exists = True
+						if not already_exists:	
+							list_per_category.append(new_ro)
 
 					page_counter+=1
 					#print ("este es "+list_of_content[2])
 
 				except:
-					NoSuchElementException:	list_of_ids[category]=list_per_category
+					NoSuchElementException:	print ("Please wait while the webpage is being scraped...")
+					if category in list_of_ids.keys():
+						for resource in list_per_category:
+							if not resource in list_of_ids.get(category):
+								list_of_ids.get(category).append(resource)
+						
+					else:
+						list_of_ids[category]=list_per_category
 					break
-
+					
+					
+print(len(list_of_ids.get("Experiment")))
+print(len(list_of_ids.get("Image")))
+print(len(list_of_ids.get("Model")))
+print(len(list_of_ids.get("Observation")))
+print(len(list_of_ids.get("Simulation")))
 
 f = open("Massive-ROs-Creator\ToScrape.json", "w")
 f.write(json.dumps(list_of_ids, indent=4, sort_keys=True))
 f.close()
 driver.quit()
+print("Your querey was excuted correctly and information was saved")
 exit()
 
-print("Your querey was excuted correctly and information was saved")
 
 
 
