@@ -4,7 +4,7 @@ import json
 import sys
 from haversine import inverse_haversine , Direction
 
-rohub.login(username="georgehadib@gmail.com", password="George123#")
+rohub.login(username="username", password="password")
 #roro = rohub.search_ros_by_id("c9d776f7-58a2-4576-b4c1-65913d1dd896")
 #print (roro)
 #licenses=show_available_licenses()
