@@ -1,0 +1,365 @@
+{
+    "response": {
+        "browseResults": null,
+        "header": {
+            "fields": null,
+            "locale": {
+                "$": "en_US"
+            },
+            "page": {
+                "$": 1
+            },
+            "query": {
+                "$": "(oaftype exact result) and (resulttypeid exact dataset) and (pidclassid exact \"doi\" and pid exact \"10.11582/2021.00051\")"
+            },
+            "size": {
+                "$": 100
+            },
+            "total": {
+                "$": 1
+            }
+        },
+        "results": {
+            "result": [
+                {
+                    "header": {
+                        "dri:dateOfCollection": {
+                            "$": "2021-09-07T00:01:15+0000"
+                        },
+                        "dri:dateOfTransformation": {
+                            "$": "2021-11-20T00:23:24.089Z"
+                        },
+                        "dri:objIdentifier": {
+                            "$": "doi_dedup___::b7dc7380c0a6d94fddd6abe5e3f98eab"
+                        }
+                    },
+                    "metadata": {
+                        "oaf:entity": {
+                            "@xsi:schemaLocation": "http://namespace.openaire.eu/oaf https://www.openaire.eu/schema/1.0/oaf-1.0.xsd",
+                            "oaf:result": {
+                                "bestaccessright": {
+                                    "@classid": "UNKNOWN",
+                                    "@classname": "not available",
+                                    "@schemeid": "dnet:access_modes",
+                                    "@schemename": "dnet:access_modes"
+                                },
+                                "children": {
+                                    "instance": [
+                                        {
+                                            "@id": "re3data_____::730f562f9efe8a3b3742d2da510d4335",
+                                            "accessright": {
+                                                "@classid": "UNKNOWN",
+                                                "@classname": "not available",
+                                                "@schemeid": "dnet:access_modes",
+                                                "@schemename": "dnet:access_modes"
+                                            },
+                                            "alternateidentifier": {
+                                                "$": "https://doi.org10.11582/2021.00051",
+                                                "@classid": "doi",
+                                                "@classname": "Digital Object Identifier",
+                                                "@inferred": false,
+                                                "@provenanceaction": "sysimport:crosswalk:repository",
+                                                "@schemeid": "dnet:pid_types",
+                                                "@schemename": "dnet:pid_types",
+                                                "@trust": "0.9"
+                                            },
+                                            "collectedfrom": {
+                                                "@id": "re3data_____::730f562f9efe8a3b3742d2da510d4335",
+                                                "@name": "B2FIND"
+                                            },
+                                            "dateofacceptance": {
+                                                "$": "2021-01-01"
+                                            },
+                                            "hostedby": {
+                                                "@id": "re3data_____::730f562f9efe8a3b3742d2da510d4335",
+                                                "@name": "B2FIND"
+                                            },
+                                            "instancetype": {
+                                                "@classid": "0021",
+                                                "@classname": "Dataset",
+                                                "@schemeid": "dnet:publication_resource",
+                                                "@schemename": "dnet:publication_resource"
+                                            },
+                                            "refereed": {
+                                                "@classid": "0000",
+                                                "@classname": "UNKNOWN",
+                                                "@schemeid": "dnet:review_levels",
+                                                "@schemename": "dnet:review_levels"
+                                            },
+                                            "webresource": {
+                                                "url": {
+                                                    "$": "http://dx.doi.org/https://doi.org/10.11582/2021.00051"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "@id": "openaire____::55045bd2a65019fd8e6741a755395c8c",
+                                            "accessright": {
+                                                "@classid": "UNKNOWN",
+                                                "@classname": "not available",
+                                                "@schemeid": "dnet:access_modes",
+                                                "@schemename": "dnet:access_modes"
+                                            },
+                                            "collectedfrom": {
+                                                "@id": "openaire____::9e3be59865b2c1c335d32dae2fe7b254",
+                                                "@name": "Datacite"
+                                            },
+                                            "dateofacceptance": {
+                                                "$": "2021-01-01"
+                                            },
+                                            "hostedby": {
+                                                "@id": "openaire____::55045bd2a65019fd8e6741a755395c8c",
+                                                "@name": "Unknown Repository"
+                                            },
+                                            "instancetype": {
+                                                "@classid": "0021",
+                                                "@classname": "Dataset",
+                                                "@schemeid": "dnet:publication_resource",
+                                                "@schemename": "dnet:publication_resource"
+                                            },
+                                            "pid": {
+                                                "$": "10.11582/2021.00051",
+                                                "@classid": "doi",
+                                                "@classname": "Digital Object Identifier",
+                                                "@inferred": false,
+                                                "@provenanceaction": "sysimport:actionset",
+                                                "@schemeid": "dnet:pid_types",
+                                                "@schemename": "dnet:pid_types",
+                                                "@trust": "0.9"
+                                            },
+                                            "refereed": {
+                                                "@classid": "0000",
+                                                "@classname": "UNKNOWN",
+                                                "@schemeid": "dnet:review_levels",
+                                                "@schemename": "dnet:review_levels"
+                                            },
+                                            "webresource": {
+                                                "url": {
+                                                    "$": "https://dx.doi.org/10.11582/2021.00051"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "result": [
+                                        {
+                                            "@objidentifier": "doi_________::b7dc7380c0a6d94fddd6abe5e3f98eab",
+                                            "collectedfrom": {
+                                                "@id": "openaire____::9e3be59865b2c1c335d32dae2fe7b254",
+                                                "@name": "Datacite"
+                                            },
+                                            "dateofacceptance": {
+                                                "$": "2021-01-01"
+                                            },
+                                            "pid": {
+                                                "$": "10.11582/2021.00051",
+                                                "@classid": "doi",
+                                                "@classname": "Digital Object Identifier",
+                                                "@inferred": false,
+                                                "@provenanceaction": "sysimport:actionset",
+                                                "@schemeid": "dnet:pid_types",
+                                                "@schemename": "dnet:pid_types",
+                                                "@trust": "0.9"
+                                            },
+                                            "publisher": {
+                                                "$": "Archive2014"
+                                            },
+                                            "title": {
+                                                "$": "NorESM output from simulations with and without Mt Pinatubo eruption",
+                                                "@classid": "main title",
+                                                "@classname": "main title",
+                                                "@schemeid": "dnet:dataCite_title",
+                                                "@schemename": "dnet:dataCite_title"
+                                            }
+                                        },
+                                        {
+                                            "@objidentifier": "r3730f562f9e::f3f2afe5b695d56ce1c1310c71254a47",
+                                            "collectedfrom": {
+                                                "@id": "re3data_____::730f562f9efe8a3b3742d2da510d4335",
+                                                "@name": "B2FIND"
+                                            },
+                                            "dateofacceptance": {
+                                                "$": "2021-01-01"
+                                            },
+                                            "publisher": {
+                                                "$": "Norstore Archive"
+                                            },
+                                            "title": {
+                                                "$": "NorESM output from simulations with and without Mt Pinatubo eruption",
+                                                "@classid": "main title",
+                                                "@classname": "main title",
+                                                "@inferred": false,
+                                                "@provenanceaction": "sysimport:crosswalk:repository",
+                                                "@schemeid": "dnet:dataCite_title",
+                                                "@schemename": "dnet:dataCite_title",
+                                                "@trust": "0.9"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "collectedfrom": [
+                                    {
+                                        "@id": "re3data_____::730f562f9efe8a3b3742d2da510d4335",
+                                        "@name": "B2FIND"
+                                    },
+                                    {
+                                        "@id": "openaire____::9e3be59865b2c1c335d32dae2fe7b254",
+                                        "@name": "Datacite"
+                                    }
+                                ],
+                                "creator": {
+                                    "$": "Bethke, Ingo",
+                                    "@name": "Ingo",
+                                    "@rank": "1",
+                                    "@surname": "Bethke"
+                                },
+                                "datainfo": {
+                                    "deletedbyinference": {
+                                        "$": false
+                                    },
+                                    "inferenceprovenance": {
+                                        "$": "dedup-similarity-result-decisiontree-v2"
+                                    },
+                                    "inferred": {
+                                        "$": true
+                                    },
+                                    "provenanceaction": {
+                                        "@classid": "sysimport:dedup",
+                                        "@classname": "Inferred by OpenAIRE",
+                                        "@schemeid": "dnet:provenanceActions",
+                                        "@schemename": "dnet:provenanceActions"
+                                    },
+                                    "trust": {
+                                        "$": 0.8
+                                    }
+                                },
+                                "dateofacceptance": {
+                                    "$": "2021-01-01"
+                                },
+                                "description": [
+                                    {
+                                        "$": "This dataset contains post-processed output from a study with the Norwegian Earth System Model (NorESM) that uses proxy-based stochastic volcanic forcing to assess the effects of volcanic uncertainty on probabilistic 21st century climate projections (Bethke et al. 2017). This particular dataset contains output from a supporting experiment that comprises two historical 60-member simulation ensembles with and without 1991-Mt Pinatubo forcing and temporal coverage 1990-2005. The output contains a range of standard monthly mean fields and selected daily mean fields for addressing monsoon related aspects."
+                                    },
+                                    {
+                                        "$": "120 POSIX tar archive (GNU), totaling ...... 1.24 TB"
+                                    }
+                                ],
+                                "language": {
+                                    "@classid": "eng",
+                                    "@classname": "English",
+                                    "@schemeid": "dnet:languages",
+                                    "@schemename": "dnet:languages"
+                                },
+                                "originalId": [
+                                    {
+                                        "$": "73b238de-bd21-4842-94ca-2a9ff87412ec"
+                                    },
+                                    {
+                                        "$": "50|r3730f562f9e::f3f2afe5b695d56ce1c1310c71254a47"
+                                    },
+                                    {
+                                        "$": "10.11582/2021.00051"
+                                    }
+                                ],
+                                "pid": {
+                                    "$": "10.11582/2021.00051",
+                                    "@classid": "doi",
+                                    "@classname": "Digital Object Identifier",
+                                    "@inferred": false,
+                                    "@provenanceaction": "sysimport:actionset",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "@trust": "0.9"
+                                },
+                                "publisher": {
+                                    "$": "Norstore Archive"
+                                },
+                                "relevantdate": [
+                                    {
+                                        "$": "2021-05-28",
+                                        "@classid": "created",
+                                        "@classname": "created",
+                                        "@schemeid": "dnet:dataCite_date",
+                                        "@schemename": "dnet:dataCite_date"
+                                    },
+                                    {
+                                        "$": "2021-01-01",
+                                        "@classid": "issued",
+                                        "@classname": "issued",
+                                        "@schemeid": "dnet:dataCite_date",
+                                        "@schemename": "dnet:dataCite_date"
+                                    }
+                                ],
+                                "rels": null,
+                                "resourcetype": {
+                                    "@classid": "UNKNOWN",
+                                    "@classname": "UNKNOWN",
+                                    "@schemeid": "dnet:dataCite_resource",
+                                    "@schemename": "dnet:dataCite_resource"
+                                },
+                                "resulttype": {
+                                    "@classid": "dataset",
+                                    "@classname": "dataset",
+                                    "@schemeid": "dnet:result_typologies",
+                                    "@schemename": "dnet:result_typologies"
+                                },
+                                "subject": [
+                                    {
+                                        "$": "Geophysics",
+                                        "@classid": "keyword",
+                                        "@classname": "keyword",
+                                        "@inferred": false,
+                                        "@provenanceaction": "sysimport:crosswalk:repository",
+                                        "@schemeid": "dnet:subject_classification_typologies",
+                                        "@schemename": "dnet:subject_classification_typologies",
+                                        "@trust": "0.9"
+                                    },
+                                    {
+                                        "$": "Natural Sciences",
+                                        "@classid": "keyword",
+                                        "@classname": "keyword",
+                                        "@inferred": false,
+                                        "@provenanceaction": "sysimport:crosswalk:repository",
+                                        "@schemeid": "dnet:subject_classification_typologies",
+                                        "@schemename": "dnet:subject_classification_typologies",
+                                        "@trust": "0.9"
+                                    },
+                                    {
+                                        "$": "FOS: Natural sciences",
+                                        "@classid": "keyword",
+                                        "@classname": "keyword",
+                                        "@schemeid": "dnet:subject_classification_typologies",
+                                        "@schemename": "dnet:subject_classification_typologies"
+                                    },
+                                    {
+                                        "$": "Earth science",
+                                        "@classid": "keyword",
+                                        "@classname": "keyword",
+                                        "@schemeid": "dnet:subject_classification_typologies",
+                                        "@schemename": "dnet:subject_classification_typologies"
+                                    },
+                                    {
+                                        "$": "FOS: Earth and related environmental sciences",
+                                        "@classid": "keyword",
+                                        "@classname": "keyword",
+                                        "@schemeid": "dnet:subject_classification_typologies",
+                                        "@schemename": "dnet:subject_classification_typologies"
+                                    }
+                                ],
+                                "title": {
+                                    "$": "NorESM output from simulations with and without Mt Pinatubo eruption",
+                                    "@classid": "main title",
+                                    "@classname": "main title",
+                                    "@inferred": false,
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "@trust": "0.9"
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

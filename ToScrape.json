@@ -1,0 +1,1578 @@
+{
+    "Experiment": [
+        {
+            "id": "10.11582/2022.00017",
+            "title": "Illinois Basin - Decatur Project Dataset"
+        },
+        {
+            "id": "10.11582/2022.00016",
+            "title": "4D synchrotron X-ray imaging of grain scale deformation mechanisms in a seismogenic gas reservoir sandstone during axial compaction"
+        },
+        {
+            "id": "10.11582/2022.00008",
+            "title": "Zong 2022"
+        },
+        {
+            "id": "10.11582/2022.00007",
+            "title": "Nutrient optimised beef enhances blood levels of vitamin D and Selenium amount young women"
+        },
+        {
+            "id": "10.11582/2022.00005",
+            "title": "Obenhaus2022"
+        },
+        {
+            "id": "10.11582/2021.00100",
+            "title": "Dataset for \"Impaired astrocytic Ca2+ signalling in awake Alzheimer's disease transgenic mice\""
+        },
+        {
+            "id": "10.11582/2021.00093",
+            "title": "Experimental study addressing fault slip   Implications for derisking of the Smeaheia potential CO2 storage site"
+        },
+        {
+            "id": "10.11582/2021.00080",
+            "title": "Talus measurements"
+        },
+        {
+            "id": "10.11582/2021.00074",
+            "title": "2014_Tiwari_Fuglebakk_etal_BMC_Bioinfo"
+        },
+        {
+            "id": "10.11582/2021.00073",
+            "title": "Direct Shear Data"
+        },
+        {
+            "id": "10.11582/2021.00072",
+            "title": "A multi-pulse ultrasound technique for imaging of thick-shelled microbubbles demonstrated in vitro and in vivo"
+        },
+        {
+            "id": "10.11582/2021.00071",
+            "title": "Transfer Learning Aurora Image Classification and Magnetic Disturbance Evaluation (TAME)"
+        },
+        {
+            "id": "10.11582/2021.00060",
+            "title": "ICI-3 electron density (spin filtered)"
+        },
+        {
+            "id": "10.11582/2021.00059",
+            "title": "ICI-2 electron density (spin filtered)"
+        },
+        {
+            "id": "10.11582/2021.00057",
+            "title": "Transfer Learning Aurora Image Classification and Magnetic Disturbance Evaluation (TAME)"
+        },
+        {
+            "id": "10.11582/2021.00051",
+            "title": "NorESM output from simulations with and without Mt Pinatubo eruption"
+        },
+        {
+            "id": "10.11582/2021.00009",
+            "title": "immuneML use case 2: Extending immuneML with a deep learning component for predicting antigen specificity of paired receptor data"
+        },
+        {
+            "id": "10.11582/2021.00008",
+            "title": "immuneML use case 1: Replication of a published study inside immuneML."
+        },
+        {
+            "id": "10.11582/2021.00007",
+            "title": "Synchrotron X-ray microtomography datasets of a Westerly granite sample acquired at two spatial resolutions (6.5 and 0.65 micrometers voxel size)"
+        },
+        {
+            "id": "10.11582/2021.00002",
+            "title": "X-ray tomography data of Westerley granite"
+        },
+        {
+            "id": "10.11582/2020.00058",
+            "title": "Synchrotron 4D X-ray imaging reveals strain localization at the onset of system-size failure of porous reservoir rocks"
+        },
+        {
+            "id": "10.11582/2020.00031",
+            "title": "Making the MOSTest of imaging genetics"
+        },
+        {
+            "id": "10.11582/2020.00022",
+            "title": "Creep burst coincident with faulting in marble observed in 4D synchrotron X-ray imaging triaxial compression experiments"
+        },
+        {
+            "id": "10.11582/2020.00003",
+            "title": "Competition between creep and damage on faults revealed in 4D synchrotron imaging experiments"
+        },
+        {
+            "id": "10.11582/2020.00002",
+            "title": "The mixology of precursory strain partitioning approaching brittle failure in rocks"
+        },
+        {
+            "id": "10.11582/2019.00044",
+            "title": "Nanoscale imaging of shale fragments with coherent X-ray diffraction"
+        },
+        {
+            "id": "10.11582/2019.00025",
+            "title": "Gas geochemistry results, NE Java, Indonesia"
+        },
+        {
+            "id": "10.11582/2019.00023",
+            "title": "Extreme wave statistics of longcrested irregular waves over a shoal"
+        },
+        {
+            "id": "10.11582/2019.00021",
+            "title": "Neutron imaging of cadmium sorption and transport in porous rocks"
+        },
+        {
+            "id": "10.11582/2019.00016",
+            "title": "Transmission Kikuchi Diffraction (TKD) data: calcite-dolomite mixtures"
+        },
+        {
+            "id": "10.11582/2019.00015",
+            "title": "Synchrotron X-ray imaging in 4D: Multiscale failure and  compaction localization in triaxially compressed porous limestone"
+        },
+        {
+            "id": "10.11582/2019.00009",
+            "title": "Gas geochemistry results, NE Java, Indonesia"
+        },
+        {
+            "id": "10.11582/2019.00005",
+            "title": "Model output, Article: Impact of assimilating sea ice concentration, sea ice thickness and snow depth in a coupled ocean-sea ice modeling system"
+        },
+        {
+            "id": "10.11582/2019.00001",
+            "title": "Dynamics of microscale precursors establish brittle compressive failure in Carrara marble as a critical phenomenon"
+        },
+        {
+            "id": "10.11582/2018.00037",
+            "title": "Mixed-mode strain localization generated by hydration reaction at crustal conditions"
+        },
+        {
+            "id": "10.11582/2018.00036",
+            "title": "Volumetric and shear strain localization in Mt. Etna basalt"
+        },
+        {
+            "id": "10.11582/2018.00030",
+            "title": "V3V measurement from experimental hydraulics"
+        },
+        {
+            "id": "10.11582/2018.00028",
+            "title": "Efficient cortical coding of 3D posture in freely behaving rats - data and GUI"
+        },
+        {
+            "id": "10.11582/2018.00025",
+            "title": "Data from Rowland et al 2018"
+        },
+        {
+            "id": "10.11582/2018.00023",
+            "title": "Volumetric and shear processes in crystalline rock during the approach to faulting"
+        },
+        {
+            "id": "10.11582/2018.00022",
+            "title": "Dynamic in situ three-dimensional imaging and digital volume correlation analysis quantify strain localization and fracture coalescence in sandstone"
+        },
+        {
+            "id": "10.11582/2018.00016",
+            "title": "Effects of confinement on reaction-induced fracturing during hydration of periclase"
+        },
+        {
+            "id": "10.11582/2018.00015",
+            "title": "Grid cell data Brun et al 2008"
+        },
+        {
+            "id": "10.11582/2018.00013",
+            "title": "Separable Statistics and Multidimensional Linear Cryptanalysis - Supplemental Material"
+        },
+        {
+            "id": "\n                  ",
+            "title": "Separable Statistics and Multidimensional Linear Cryptanalysis - Supplemental Material"
+        },
+        {
+            "id": "10.11582/2018.00005",
+            "title": "Investigating the onset of strain localization within anisotropic shale using digital volume correlation of time-resolved X-ray microtomography images"
+        },
+        {
+            "id": "10.11582/2018.00004",
+            "title": "Speed cell data Ye et al (2017)"
+        },
+        {
+            "id": "10.11582/2018.00003",
+            "title": "Cells for path integration in young rats (Bjerknes et al 2018)"
+        },
+        {
+            "id": "10.11582/2017.00025",
+            "title": "Critical evolution of damage towards system size failure in a crystalline rock"
+        },
+        {
+            "id": "10.11582/2017.00023",
+            "title": "Grid cell data Wernle et al 2017"
+        },
+        {
+            "id": "10.11582/2017.00021",
+            "title": "Grid cell data Wernle et al 2017"
+        },
+        {
+            "id": "10.11582/2017.00020",
+            "title": "Grid cell data; Hafting et al 2008"
+        },
+        {
+            "id": "10.11582/2017.00018",
+            "title": "Grid cell data Brun et al 2008"
+        },
+        {
+            "id": "10.11582/2017.00019",
+            "title": "Grid cell data Sargolini et al 2006"
+        },
+        {
+            "id": "10.11582/2017.00017",
+            "title": "Grid cell data Hafting et al 2005"
+        },
+        {
+            "id": "10.11582/2017.00001",
+            "title": "Observations and ensemble statics of the TOPAZ4 reanalysis of 1991-2013"
+        },
+        {
+            "id": "10.11582/2016.00006",
+            "title": "Complete mitochondrial genomes of eleven extinct or possibly extinct bird species"
+        },
+        {
+            "id": "10.11582/2015.00013",
+            "title": "Amplification bias in aDNA"
+        },
+        {
+            "id": "10.11582/2015.00010",
+            "title": "Perfect Reconstructability of Control Flow from Demand Dependence Graphs"
+        },
+        {
+            "id": "10.11582/2014.00004",
+            "title": "Grid cell data; Hafting et al 2008"
+        },
+        {
+            "id": "10.11582/2014.00002",
+            "title": "Grid cell data Brun et al 2008"
+        },
+        {
+            "id": "10.11582/2014.00003",
+            "title": "Grid cell data Sargolini et al 2006"
+        },
+        {
+            "id": "10.11582/2014.00001",
+            "title": "Grid cell data Hafting et al 2005"
+        }
+    ],
+    "Image": [
+        {
+            "id": "10.11582/2021.00084",
+            "title": "2014_Fuglebakk_Tiwari_Reuter"
+        },
+        {
+            "id": "10.11582/2021.00083",
+            "title": "2014_Perica_etal_Science"
+        },
+        {
+            "id": "10.11582/2020.00037",
+            "title": "Comparison of the tropical tropopause in ECMWF reanalyses and GPS-RO satellite observation"
+        },
+        {
+            "id": "10.11582/2020.00025",
+            "title": "EASY-RESECT"
+        },
+        {
+            "id": "10.11582/2017.00004",
+            "title": "RESECT: a clinical database of pre-operative MRI and intra-operative ultrasound in low-grade glioma surgeries"
+        },
+        {
+            "id": "10.11582/2016.00004",
+            "title": "Glioblastoma Segmentation: Comparison of Three Different Software Packages"
+        },
+        {
+            "id": "\n                  ",
+            "title": "RESECT: a clinical database of pre-operative MRI and intra-operative ultrasound in low-grade glioma surgeries"
+        },
+        {
+            "id": "10.11582/2016.00001",
+            "title": "Raw data for Frei, D. M. et al. Novel microscopy-based screening method reveals regulators of contact-dependent intercellular transfer"
+        }
+    ],
+    "Model": [
+        {
+            "id": "10.11582/2022.00009",
+            "title": "Photogrammetric 3D-models and digitally mapped rock masses of slopes susceptible to rockfalls"
+        },
+        {
+            "id": "10.11582/2021.00142",
+            "title": "Dynamic vegetation impacting on East Asian monsoon"
+        },
+        {
+            "id": "10.11582/2021.00139",
+            "title": "Quantifying the climate response to extreme land cover changes in Europe with a regional model"
+        },
+        {
+            "id": "10.11582/2021.00088",
+            "title": "Cyclones, jets and wave breaking in ERA-interim"
+        },
+        {
+            "id": "10.11582/2021.00089",
+            "title": "Data from the article \"Individualized VDJ recombination predisposes the available Ig sequence space\""
+        },
+        {
+            "id": "10.11582/2021.00082",
+            "title": "2018_Fuglebakk_Reuter_PLoSCB"
+        },
+        {
+            "id": "10.11582/2021.00076",
+            "title": "Emhjellen master thesis"
+        },
+        {
+            "id": "10.11582/2021.00064",
+            "title": "Data used in the article \"Profiling the baseline performance and limits of machine learning models for adaptive immune receptor repertoire classification\""
+        },
+        {
+            "id": "10.11582/2021.00056",
+            "title": "piClim-p4k: +4K pre-industrial fixed SST simulation for NorESM2-MM"
+        },
+        {
+            "id": "10.11582/2021.00054",
+            "title": "piClim-p4k: +4K pre-industrial fixed SST simulation for NorESM2-LM"
+        },
+        {
+            "id": "10.11582/2021.00053",
+            "title": "Southern Ocean hosing experiment"
+        },
+        {
+            "id": "10.11582/2021.00035",
+            "title": "NorCPM output prepare for EPOCASA: no-assimilation historical ensemble "
+        },
+        {
+            "id": "10.11582/2021.00036",
+            "title": "NorCPM output prepared for PRACTICE: model-model prediction with NorESM1-L"
+        },
+        {
+            "id": "10.11582/2021.00033",
+            "title": "Distribution of ribbed moraines and their connection to subglacial water - in the Oppland region of Norway"
+        },
+        {
+            "id": "10.11582/2021.00014",
+            "title": "NorCPM1-CMIP6-1.0.0 - The CMIP6 DCPP version of the Norwegian Climate Prediction Model"
+        },
+        {
+            "id": "10.11582/2020.00060",
+            "title": "Raw ML files for the paratope-epitope interaction study "
+        },
+        {
+            "id": "10.11582/2020.00056",
+            "title": "Data for: Implementing a sectional scheme for early aerosol growth from new particle formation in the Norwegian Earth System Model v2: comparison to observations and climate impacts"
+        },
+        {
+            "id": "10.11582/2020.00055",
+            "title": "Input and output files from a regional ocean model (ROMS) applied over the Weddell Sea, Antarctica"
+        },
+        {
+            "id": "10.11582/2020.00039",
+            "title": "Evolving viscous anisotropy in the upper mantle and its geodynamic implications \u2013 Supplementary Materials, Data, and Code"
+        },
+        {
+            "id": "10.11582/2020.00034",
+            "title": "Evolving viscous anisotropy in the upper mantle and its geodynamic implications \u2013 Supplementary Materials, Data, and Code"
+        },
+        {
+            "id": "10.11582/2020.00038",
+            "title": "ECMWF data and GPS-RO satellite data"
+        },
+        {
+            "id": "10.11582/2020.00032",
+            "title": "Data for: Large difference in aerosol radiative effects from BVOC-SOA treatment in three ESMs"
+        },
+        {
+            "id": "10.11582/2020.00029",
+            "title": "Rebound effect of energy intensity reduction on energy consumption"
+        },
+        {
+            "id": "10.11582/2020.00028",
+            "title": "4xCO2 and CTRL simulations for CESM2-FV2 with COSP"
+        },
+        {
+            "id": "10.11582/2020.00027",
+            "title": "Evolving viscous anisotropy in the upper mantle and its geodynamic implications \u2013 Supplementary Materials, Data, and Code"
+        },
+        {
+            "id": "10.11582/2020.00026",
+            "title": "Climate model data: idealized simulations from CAM4 and GISS-E2"
+        },
+        {
+            "id": "10.11582/2020.00014",
+            "title": "NorESM1-Happi slab ocean climate sensitivity experiments"
+        },
+        {
+            "id": "10.11582/2020.00013",
+            "title": "NorESM1-Happi Present Day, 1.5 deg and 2.0 deg warming over pre-industrial, slab ocean experiments."
+        },
+        {
+            "id": "10.11582/2020.00012",
+            "title": "Climate model output NorESM1 - BC idealized experiments"
+        },
+        {
+            "id": "10.11582/2020.00010",
+            "title": "Control simulation F2000 climo f19_g17 (13 years)"
+        },
+        {
+            "id": "10.11582/2020.00009",
+            "title": "Seismic model of Northeastern Tibetan Plateau from ChinaArrayII data"
+        },
+        {
+            "id": "10.11582/2019.00043",
+            "title": "Guiding of Tectonic Plate Motions by Transform Faults and Mid-Ocean Ridges"
+        },
+        {
+            "id": "10.11582/2019.00034",
+            "title": "30 member ensemble of NorESM1-ME with CMIP5 historical forcing and RCP8.5 beyond 2005. Restart files."
+        },
+        {
+            "id": "10.11582/2019.00022",
+            "title": "Size-dependent evaporation and entrainment - Output from main simulations with CAM5.3-Oslo"
+        },
+        {
+            "id": "10.11582/2019.00017",
+            "title": "Benchmark target strength simulation models"
+        },
+        {
+            "id": "10.11582/2019.00007",
+            "title": "Idealized geoengineering SAI with NorESM"
+        },
+        {
+            "id": "10.11582/2018.00039",
+            "title": "Upstream of a land-falling Atmospheric River: Its moisture sources and assimilated observation influences on Norway"
+        },
+        {
+            "id": "10.11582/2018.00029",
+            "title": "Model runs and inputdata from CLM4.5 runs in Finnmark (with lichen)"
+        },
+        {
+            "id": "10.11582/2018.00020",
+            "title": "Cyclone tracks from ERA-Interim and ASR"
+        },
+        {
+            "id": "10.11582/2018.00026",
+            "title": "Master thesis Franziska Hellmuth 2018"
+        },
+        {
+            "id": "10.11582/2018.00024",
+            "title": "GEF4530: The General Circulation of the Atmosphere"
+        },
+        {
+            "id": "10.11582/2018.00021",
+            "title": "Improving the reliability and added value of dynamical downscaling via correction of large-scale errors: A Norwegian perspective"
+        },
+        {
+            "id": "10.11582/2018.00014",
+            "title": "Oxidant impact on indirect effects - Model output from the three simulations with original model setup"
+        },
+        {
+            "id": "10.11582/2018.00008",
+            "title": "Transport variability of very short-lived substances from the West Indian Ocean to the stratosphere"
+        },
+        {
+            "id": "10.11582/2018.00006",
+            "title": "Svalbard impact assessment forcing dataset, version 1"
+        },
+        {
+            "id": "10.11582/2017.00015",
+            "title": "The climatic mass balance of Svalbard glaciers: a 10-year simulation with a coupled atmosphere\u2013glacier mass balance model"
+        },
+        {
+            "id": "10.11582/2017.00016",
+            "title": "A Comparison between Simulated and Observed Surface Energy Balance at the Svalbard Archipelago"
+        },
+        {
+            "id": "10.11582/2017.00014",
+            "title": "A Tiling Approach to Represent Subgrid Snow Variability in Coupled Land Surface\u2013Atmosphere Models"
+        },
+        {
+            "id": "10.11582/2017.00007",
+            "title": "A tale of two damaging convective storms during the record-breaking Norwegian summer of 2014"
+        },
+        {
+            "id": "10.11582/2017.00006",
+            "title": "NorESM output from 21st century experiments with stochastic volcanic forcing"
+        },
+        {
+            "id": "10.11582/2016.00002",
+            "title": "Norwegian Climate Prediction Model reanalysis with assimilation of SST anomaly : 1950-2010"
+        },
+        {
+            "id": "10.11582/2015.00031",
+            "title": "Pangea without wall using MITgcm"
+        },
+        {
+            "id": "10.11582/2015.00030",
+            "title": "Pangea with wall using MITgcm"
+        },
+        {
+            "id": "10.11582/2015.00033",
+            "title": "MITgcm results using todays bathymetry with wall"
+        },
+        {
+            "id": "10.11582/2015.00032",
+            "title": "Todays bathymetry with no wall using MITgcm"
+        },
+        {
+            "id": "10.11582/2015.00016",
+            "title": "A ground temperature map of the North Atlantic permafrost region based on remote sensing and reanalysis data"
+        }
+    ],
+    "Observation": [
+        {
+            "id": "10.11582/2022.00015",
+            "title": "The cohomology of the mod 2 Steenrod algebra"
+        },
+        {
+            "id": "10.11582/2022.00006",
+            "title": "Svalbox-DOM_2020-0001_Festningen"
+        },
+        {
+            "id": "10.11582/2022.00004",
+            "title": "Gamanjunni_and_mannen_rockwall_data"
+        },
+        {
+            "id": "10.11582/2022.00002",
+            "title": "ice tracker data"
+        },
+        {
+            "id": "10.11582/2021.00094",
+            "title": "Extreme sub-daily precipitation in the Nordic-Baltic region"
+        },
+        {
+            "id": "10.11582/2021.00081",
+            "title": "2016_Tiwari_Reuter_TIMs_PlosCB"
+        },
+        {
+            "id": "10.11582/2021.00078",
+            "title": "The cohomology of the mod 2 Steenrod algebra"
+        },
+        {
+            "id": "10.11582/2021.00077",
+            "title": "The cohomology of the mod 2 Steenrod algebra"
+        },
+        {
+            "id": "10.11582/2021.00069",
+            "title": "ISA_Svalbard_Chlorophyll_A_2011_2019"
+        },
+        {
+            "id": "10.11582/2021.00065",
+            "title": "Temperature, salinity, light and fluorescence (CTD) measurements from the Kongsfjorden (Svalbard) marine observatory (mooring) August 2017-August 2018"
+        },
+        {
+            "id": "10.11582/2021.00062",
+            "title": "Temperature, salinity, light and fluorescence (CTD) measurements from the Kongsfjorden (Svalbard) marine observatory (mooring) August 2016-August 2017"
+        },
+        {
+            "id": "10.11582/2021.00061",
+            "title": "Temperature, salinity, light and fluorescence (CTD) measurements from the Kongsfjorden (Svalbard) marine observatory (mooring) September 2015-August 2016"
+        },
+        {
+            "id": "10.11582/2021.00055",
+            "title": "Oslo Aurora THEMIS (OATH) Training Dataset"
+        },
+        {
+            "id": "10.11582/2021.00052",
+            "title": "Research data for \"Thermal erosion patterns of permafrost peat plateaus in northern Norway\""
+        },
+        {
+            "id": "10.11582/2021.00040",
+            "title": "Time series (2017) of irradiance in the PAR (photosynthetically active radiation) region measured under the dome of a light observatory in the Arctic  (Ny-\u00c5lesund, Svalbard, Norway) derived from an USSIMO spectroradiometer"
+        },
+        {
+            "id": "10.11582/2021.00041",
+            "title": "Time series (2018) of irradiance in the PAR (photosynthetically active radiation) region measured under the dome of a light observatory in the Arctic  (Ny-\u00c5lesund, Svalbard, Norway) derived from an USSIMO spectroradiometer"
+        },
+        {
+            "id": "10.11582/2021.00042",
+            "title": "Time series (2019) of irradiance in the PAR (photosynthetically active radiation) region measured under the dome of a light observatory in the Arctic  (Ny-\u00c5lesund, Svalbard, Norway) derived from an USSIMO spectroradiometer"
+        },
+        {
+            "id": "10.11582/2021.00043",
+            "title": "Time series (2020) of irradiance in the PAR (photosynthetically active radiation) region measured under the dome of a light observatory in the Arctic  (Ny-\u00c5lesund, Svalbard, Norway) derived from an USSIMO spectroradiometer"
+        },
+        {
+            "id": "10.11582/2021.00039",
+            "title": "USSIMO spectroradiometer raw data time series (2017)  measured under the dome of a light observatory in the Arctic  (Ny-\u00c5lesund, Svalbard, Norway)"
+        },
+        {
+            "id": "10.11582/2021.00044",
+            "title": "USSIMO spectroradiometer raw data time series (2018)  measured under the dome of a light observatory in the Arctic  (Ny-\u00c5lesund, Svalbard, Norway)"
+        },
+        {
+            "id": "10.11582/2021.00045",
+            "title": "USSIMO spectroradiometer raw data time series (2019) measured under the dome of a light observatory in the Arctic  (Ny-\u00c5lesund, Svalbard, Norway)"
+        },
+        {
+            "id": "10.11582/2021.00046",
+            "title": "USSIMO spectroradiometer raw data time series (2020) measured under the dome of a light observatory in the Arctic  (Ny-\u00c5lesund, Svalbard, Norway)"
+        },
+        {
+            "id": "10.11582/2021.00047",
+            "title": "Time series (2017) of irradiance in the PAR (photosynthetically active radiation) region measured under the dome of a light observatory in the Arctic (Ny-\u00c5lesund, Svalbard, Norway) derived from SLR camera"
+        },
+        {
+            "id": "10.11582/2021.00049",
+            "title": "Time series (2019) of irradiance in the PAR (photosynthetically active radiation) region measured under the dome of a light observatory in the Arctic (Ny-\u00c5lesund, Svalbard, Norway) derived from SLR camera"
+        },
+        {
+            "id": "10.11582/2021.00048",
+            "title": "Time series (2018) of irradiance in the PAR (photosynthetically active radiation) region measured under the dome of a light observatory in the Arctic (Ny-\u00c5lesund, Svalbard, Norway) derived from SLR camera"
+        },
+        {
+            "id": "10.11582/2021.00050",
+            "title": "Time series (2020) of irradiance in the PAR (photosynthetically active radiation) region measured under the dome of a light observatory in the Arctic (Ny-\u00c5lesund, Svalbard, Norway) derived from SLR camera"
+        },
+        {
+            "id": "10.11582/2021.00037",
+            "title": "Photosynthetic active radiation (PAR) time series measured under the dome of a light observatory in the Arctic  (Ny-\u00c5lesund, Svalbard, Norway)"
+        },
+        {
+            "id": "10.11582/2021.00031",
+            "title": "Temperature, salinity, light and fluorescence (CTD) measurements from the Rijpfjorden (Svalbard) marine observatory (mooring) August 2018-September 2020"
+        },
+        {
+            "id": "10.11582/2021.00030",
+            "title": "Soil temperature and moisture recorded as part of a model-system for study of autopolyploidy in Saxifraga oppositifolia, Adventdalen, Svalbard"
+        },
+        {
+            "id": "10.11582/2021.00029",
+            "title": "Pictures from an all-sky camera with hourly resolution from the light observatory at Ny-\u00c5lesund, Svalbard, Norway (complete year 2018)"
+        },
+        {
+            "id": "10.11582/2021.00028",
+            "title": "Pictures from an all-sky camera with hourly resolution from the light observatory at Ny-\u00c5lesund, Svalbard, Norway (complete year 2017)"
+        },
+        {
+            "id": "10.11582/2021.00027",
+            "title": "Temperature, salinity, light and fluorescence (CTD) measurements from the Rijpfjorden (Svalbard) marine observatory (mooring) September 2011-September 2012"
+        },
+        {
+            "id": "10.11582/2021.00026",
+            "title": "Temperature, salinity, light and fluorescence (CTD) measurements from the Rijpfjorden (Svalbard) marine observatory (mooring) September 2010-September 2011"
+        },
+        {
+            "id": "10.11582/2021.00025",
+            "title": "Temperature, salinity, light and fluorescence (CTD) measurements from the Rijpfjorden (Svalbard) marine observatory (mooring) September 2012-September 2013"
+        },
+        {
+            "id": "10.11582/2021.00023",
+            "title": "Temperature, salinity, light and fluorescence (CTD) measurements from the Rijpfjorden (Svalbard) marine observatory (mooring) September 2013-September 2014"
+        },
+        {
+            "id": "10.11582/2021.00022",
+            "title": "Pictures from an all-sky camera with hourly resolution from the light observatory at Ny-\u00c5lesund, Svalbard, Norway (complete year 2019)"
+        },
+        {
+            "id": "10.11582/2021.00021",
+            "title": "Pictures from an all-sky camera with hourly resolution from the light observatory at Ny-\u00c5lesund, Svalbard, Norway (complete year 2020)"
+        },
+        {
+            "id": "10.11582/2021.00018",
+            "title": "Temperature, salinity, light and fluorescence (CTD) measurements from the Rijpfjorden (Svalbard) marine observatory (mooring) September 2014-September 2015"
+        },
+        {
+            "id": "10.11582/2021.00019",
+            "title": "Temperature, salinity, light and fluorescence (CTD) measurements from the Rijpfjorden (Svalbard) marine observatory (mooring) September 2015-August 2016"
+        },
+        {
+            "id": "10.11582/2021.00020",
+            "title": "Temperature, salinity, light and fluorescence (CTD) measurements from the Rijpfjorden (Svalbard) marine observatory (mooring) August 2016-August 2017"
+        },
+        {
+            "id": "10.11582/2021.00017",
+            "title": "Temperature, salinity, light and fluorescence (CTD) measurements from the Rijpfjorden (Svalbard) marine observatory (mooring) August 2017-August 2018"
+        },
+        {
+            "id": "10.11582/2021.00015",
+            "title": "Annual maximum daily precipitation for the Nordic-Baltic countries"
+        },
+        {
+            "id": "10.11582/2021.00016",
+            "title": "Frequency and trends in cold and warm spells in Norway in relation to large-scale atmospheric circulation"
+        },
+        {
+            "id": "10.11582/2021.00013",
+            "title": "NorCPM1 input data for CMIP6 DCPP simulations"
+        },
+        {
+            "id": "10.11582/2021.00010",
+            "title": "Temperature, salinity, light and chl a measurements from the Kongsfjorden SIOS marine observatory January-September 2020"
+        },
+        {
+            "id": "10.11582/2021.00004",
+            "title": "m-NLP on VISIONS-2 35.039"
+        },
+        {
+            "id": "10.11582/2020.00067",
+            "title": "SRA transcriptome assemblies"
+        },
+        {
+            "id": "10.11582/2020.00066",
+            "title": "Gap filled GEBA data"
+        },
+        {
+            "id": "10.11582/2020.00063",
+            "title": "ISA_Svalbard_Chlorophyll_A_2011_2019"
+        },
+        {
+            "id": "10.11582/2020.00059",
+            "title": "Fault Roughness Data"
+        },
+        {
+            "id": "10.11582/2020.00054",
+            "title": "Subglacial permafrost dynamics and erosion inside subglacial channels driven by surface events in Svalbard "
+        },
+        {
+            "id": "10.11582/2020.00024",
+            "title": "Snow depth and ground surface temperature at Bayelva research site, Svalbard"
+        },
+        {
+            "id": "10.11582/2020.00023",
+            "title": "Annual maximum daily precipitation for the Nordic-Baltic countries"
+        },
+        {
+            "id": "10.11582/2019.00004",
+            "title": "Nathorstbreen surge dataset"
+        },
+        {
+            "id": "10.11582/2018.00027",
+            "title": "Stensola2012"
+        },
+        {
+            "id": "10.11582/2017.00012",
+            "title": "WIFAR/UNDER-ICE acoustic recording in the Marginal Ice Zone"
+        },
+        {
+            "id": "10.11582/2017.00005",
+            "title": "VAUUAV Irradiance over Summit, Greenland"
+        },
+        {
+            "id": "10.11582/2015.00015",
+            "title": "Late Carboniferous-Permian of NW Europe: an introduction to a new regional map"
+        }
+    ],
+    "Simulation": [
+        {
+            "id": "10.11582/2022.00014",
+            "title": "WRF simulations used for Spensberger and Spengler (2021), JGR."
+        },
+        {
+            "id": "10.11582/2022.00013",
+            "title": "2011_SkjaervenL_PLoSCB_GroEl"
+        },
+        {
+            "id": "10.11582/2022.00012",
+            "title": "Idealized overshoot experiments simulated with NorESM2-LM"
+        },
+        {
+            "id": "10.11582/2022.00011",
+            "title": "2019_Waheed_etal_JPC-Letter"
+        },
+        {
+            "id": "10.11582/2022.00010",
+            "title": "2016_Khan_etal_BPJ"
+        },
+        {
+            "id": "10.11582/2022.00003",
+            "title": "Blocking/RWB/Anticyclones - HAPPI"
+        },
+        {
+            "id": "10.11582/2022.00001",
+            "title": "NorESM1-ME interactive DMS"
+        },
+        {
+            "id": "10.11582/2021.00143",
+            "title": "FTI solar geoengineering simulation (CCT) with NorESM1-ME"
+        },
+        {
+            "id": "10.11582/2021.00144",
+            "title": "FTI solar geoengineering simulation (MSB) with NorESM1-ME"
+        },
+        {
+            "id": "10.11582/2021.00145",
+            "title": "FTI solar geoengineering simulation (RCP4.5) with NorESM1-ME"
+        },
+        {
+            "id": "10.11582/2021.00141",
+            "title": "FTI solar geoengineering simulation (SAI) with NorESM1-ME"
+        },
+        {
+            "id": "10.11582/2021.00140",
+            "title": "FTI solar geoengineering simulation (RCP8.5) with NorESM1-ME"
+        },
+        {
+            "id": "10.11582/2021.00136",
+            "title": "2017_Waheed_etal_JBC"
+        },
+        {
+            "id": "10.11582/2021.00137",
+            "title": "2017-VenkenT-BBABiomembranes-Scramblase"
+        },
+        {
+            "id": "10.11582/2021.00138",
+            "title": "2014_Schillinger_etal_BBA"
+        },
+        {
+            "id": "10.11582/2021.00135",
+            "title": "N1850_f09_tn14_20190812"
+        },
+        {
+            "id": "10.11582/2021.00134",
+            "title": "N1850OCBDRDDMS_f09_tn14_alwfix_sg30_qmnmx_20190314"
+        },
+        {
+            "id": "10.11582/2021.00133",
+            "title": "N1850OCBDRDDMS_f19_tn14_201218"
+        },
+        {
+            "id": "10.11582/2021.00126",
+            "title": "N1850_f09_tn14_20190913"
+        },
+        {
+            "id": "10.11582/2021.00131",
+            "title": "N1850_f09_tn14_20190701"
+        },
+        {
+            "id": "10.11582/2021.00127",
+            "title": "N1850_f09_tn14_20190610"
+        },
+        {
+            "id": "10.11582/2021.00128",
+            "title": "N1850_f09_tn14_20190604"
+        },
+        {
+            "id": "10.11582/2021.00130",
+            "title": "N1850OCBDRDDMS_f09_tn14_20190515"
+        },
+        {
+            "id": "10.11582/2021.00132",
+            "title": "N1850OCBDRDDMS_f09_tn14_20190417"
+        },
+        {
+            "id": "10.11582/2021.00129",
+            "title": "N1850OCBDRDDMS_f19_tn14_250119"
+        },
+        {
+            "id": "10.11582/2021.00121",
+            "title": "N1850_f09_tn14_20190615"
+        },
+        {
+            "id": "10.11582/2021.00124",
+            "title": "N1850OCBDRDDMS_f09_tn14_20190506"
+        },
+        {
+            "id": "10.11582/2021.00122",
+            "title": "N1850OCBDRDDMS_f09_tn14_20190425"
+        },
+        {
+            "id": "10.11582/2021.00123",
+            "title": "N1850OCBDRDDMS_f09_tn14_qmnmxrhmin_20190314"
+        },
+        {
+            "id": "10.11582/2021.00125",
+            "title": "N1850OCBDRDDMS_f09_tn14_ice4_gam288_20181220"
+        },
+        {
+            "id": "10.11582/2021.00118",
+            "title": "N1850_f09_tn14_20190726"
+        },
+        {
+            "id": "10.11582/2021.00120",
+            "title": "N1850_f19_tn14_11062019"
+        },
+        {
+            "id": "10.11582/2021.00119",
+            "title": "N1850_f19_tn14_06062019"
+        },
+        {
+            "id": "10.11582/2021.00108",
+            "title": "N1850_f09_tn14_20190622"
+        },
+        {
+            "id": "10.11582/2021.00117",
+            "title": "N1850OCBDRDDMS_f09_tn14_20190512"
+        },
+        {
+            "id": "10.11582/2021.00116",
+            "title": "N1850OCBDRDDMS_f19_tn14_07052019"
+        },
+        {
+            "id": "10.11582/2021.00109",
+            "title": "N1850OCBDRDDMS_f19_tn14_25042019"
+        },
+        {
+            "id": "10.11582/2021.00112",
+            "title": "N1850OCBDRDDMS_f19_tn14_15042019"
+        },
+        {
+            "id": "10.11582/2021.00110",
+            "title": "N1850OCBDRDDMS_f19_tn14_12042019"
+        },
+        {
+            "id": "10.11582/2021.00114",
+            "title": "N1850OCBDRDDMS_f09_tn14_20190411"
+        },
+        {
+            "id": "10.11582/2021.00111",
+            "title": "N1850OCBDRDDMS_f19_tn14_03042019"
+        },
+        {
+            "id": "10.11582/2021.00113",
+            "title": "N1850OCBDRDDMS_f19_tn14_Gibr_220319"
+        },
+        {
+            "id": "10.11582/2021.00115",
+            "title": "N1850OCBDRDDMS_f09_tn14_sg30_qmnmxrhmin_20190314"
+        },
+        {
+            "id": "10.11582/2021.00107",
+            "title": "N1850OCBDRDDMS_f19_tn14_13052019"
+        },
+        {
+            "id": "10.11582/2021.00106",
+            "title": "N1850OCBDRDDMS_f19_tn14_10052019"
+        },
+        {
+            "id": "10.11582/2021.00105",
+            "title": "N1850OCBDRDDMS_f19_tn14_08052019"
+        },
+        {
+            "id": "10.11582/2021.00101",
+            "title": "2014_Myklebust_etal_HumMolecGenet"
+        },
+        {
+            "id": "10.11582/2021.00102",
+            "title": "2013_Grauffel_etal_JACS"
+        },
+        {
+            "id": "10.11582/2021.00103",
+            "title": "2016_Khan_etal_JCTC"
+        },
+        {
+            "id": "10.11582/2021.00104",
+            "title": "2019_Khan_etal_JCTC"
+        },
+        {
+            "id": "10.11582/2021.00099",
+            "title": "Specificity of Loxosceles alpha clade phospholipase D enzymes for choline-containing lipids: role of a conserved aromatic cage"
+        },
+        {
+            "id": "10.11582/2021.00098",
+            "title": "2014_Taxt_InfectionImmunity"
+        },
+        {
+            "id": "10.11582/2021.00097",
+            "title": "2016_MartinKR_JBiolChem"
+        },
+        {
+            "id": "10.11582/2021.00096",
+            "title": "2014_Narawane-Budnjo_etal_JMedChem"
+        },
+        {
+            "id": "10.11582/2021.00095",
+            "title": "Lofoten 2D tidal simulation"
+        },
+        {
+            "id": "10.11582/2021.00092",
+            "title": "Debris flow field observations and RAMMS back calculations"
+        },
+        {
+            "id": "10.11582/2021.00090",
+            "title": "2012_Grauffel_etal_PLoSONE"
+        },
+        {
+            "id": "10.11582/2021.00087",
+            "title": "Model output for \"Reduced effective radiative forcing from cloud-aerosol interactions (ERFaci) with improved treatment of early aerosol growth in an Earth System Model\""
+        },
+        {
+            "id": "10.11582/2021.00085",
+            "title": "2013_Fuglebakk_Reuter_Hinsen_JCTC"
+        },
+        {
+            "id": "10.11582/2021.00086",
+            "title": "2009_Hajjar_Dejaegere_Reuter_JPCA"
+        },
+        {
+            "id": "10.11582/2021.00075",
+            "title": "Subset of the AFES simulations used for doi 10.5194/wcd-2020-50"
+        },
+        {
+            "id": "10.11582/2021.00068",
+            "title": "Norwegian hindcast archive's wind power data set (NORA3-WP)"
+        },
+        {
+            "id": "10.11582/2021.00067",
+            "title": "Understanding Model Diversity in Future Precipitation Projections for South America"
+        },
+        {
+            "id": "10.11582/2021.00066",
+            "title": "Statistisk prediksjonsmodellering av steinbreer i Norge"
+        },
+        {
+            "id": "10.11582/2021.00063",
+            "title": "Absolut! in silico antibody-antigen binding database"
+        },
+        {
+            "id": "10.11582/2021.00058",
+            "title": "HARMONIE-AROME precipitation "
+        },
+        {
+            "id": "10.11582/2021.00034",
+            "title": "NorESM output from 21st century experiments with stochastic volcanic forcing - NoVOLC extension v2 with extra output"
+        },
+        {
+            "id": "10.11582/2021.00024",
+            "title": "CLM5.0-FATES output for frost drought paper"
+        },
+        {
+            "id": "10.11582/2021.00011",
+            "title": "Supplementary data for the article \"Heat Stress Indicators in CMIP6: Estimating Future Trends and Exceedances of Impact-Relevant Thresholds\""
+        },
+        {
+            "id": "10.11582/2021.00005",
+            "title": "immuneML use case 3: Benchmarking ML methods for AIRR classification on ground-truth synthetic data."
+        },
+        {
+            "id": "10.11582/2021.00006",
+            "title": "immuneML Quickstart test dataset"
+        },
+        {
+            "id": "10.11582/2021.00003",
+            "title": "ICTP-AGCM experiments performed for the study \"Recent weakening in the winter ENSO teleconnection over the North Atlantic-European region\""
+        },
+        {
+            "id": "10.11582/2021.00001",
+            "title": "Ocean output of TMI model Pleistocene Milankovitch cycle experiments"
+        },
+        {
+            "id": "10.11582/2020.00065",
+            "title": "Output of sensitivity experiements by aqua-planet AGCM on the latitude and existence of SST front"
+        },
+        {
+            "id": "10.11582/2020.00061",
+            "title": "Ocean output of NorESM-OC simulation of the Pre-Industrial control (~1850)"
+        },
+        {
+            "id": "10.11582/2020.00062",
+            "title": "Ocean output of NorESM-OC simulation of the Last Glacial Maximum (21 kya)"
+        },
+        {
+            "id": "10.11582/2020.00052",
+            "title": "PMIP3-based Last Glacial Maximum (LGM) pre-industrial (PI) anomaly fields for addition to PI ocean model forcing, version 3"
+        },
+        {
+            "id": "10.11582/2020.00051",
+            "title": "Ocean output of the Bergen Climate Model experiment LI1"
+        },
+        {
+            "id": "10.11582/2020.00048",
+            "title": "Ocean and atmosphere output of the Bergen Climate Model experiment P2X"
+        },
+        {
+            "id": "10.11582/2020.00049",
+            "title": "Ocean and atmosphere output of the Bergen Climate Model experiment PTC"
+        },
+        {
+            "id": "10.11582/2020.00050",
+            "title": "Ocean and atmosphere output of the Bergen Climate Model experiment A1B"
+        },
+        {
+            "id": "10.11582/2020.00044",
+            "title": "Ocean and atmosphere output of the Bergen Climate Model experiment TB1"
+        },
+        {
+            "id": "10.11582/2020.00047",
+            "title": "Ocean and atmosphere output of the Bergen Climate Model experiment PT3"
+        },
+        {
+            "id": "10.11582/2020.00045",
+            "title": "Ocean and atmosphere output of the Bergen Climate Model experiment TA2"
+        },
+        {
+            "id": "10.11582/2020.00046",
+            "title": "Ocean and atmosphere output of the Bergen Climate Model experiment PC3"
+        },
+        {
+            "id": "10.11582/2020.00043",
+            "title": "CESM2(WACCM6) Simulations of the Los Chocoyos eruption"
+        },
+        {
+            "id": "10.11582/2020.00042",
+            "title": "NorESM output from 21st century experiments with stochastic volcanic forcing - VOLC extension"
+        },
+        {
+            "id": "10.11582/2020.00041",
+            "title": "NorESM output from 21st century experiments with stochastic volcanic forcing - NoVOLC extension"
+        },
+        {
+            "id": "10.11582/2020.00040",
+            "title": "NorESM output from 21st century experiments with stochastic volcanic forcing - VOLC-CONST extension "
+        },
+        {
+            "id": "10.11582/2020.00035",
+            "title": "Norwegian Climate Prediction Model (NorCPM) output prepared for PRACTICE - perfect model prediction twin-experiment"
+        },
+        {
+            "id": "10.11582/2020.00036",
+            "title": "Bergen Climate Model version 2 (BCM2) output prepared for CMIP3 as part of EU ENSEMBLES"
+        },
+        {
+            "id": "10.11582/2020.00033",
+            "title": "LIG transient forcing experiments"
+        },
+        {
+            "id": "10.11582/2020.00030",
+            "title": "OsloCTM3 model output and ozone radiative kernel output"
+        },
+        {
+            "id": "10.11582/2020.00021",
+            "title": "NorESM1 1 degree resolution coupled simulations for HappiEVA project "
+        },
+        {
+            "id": "10.11582/2020.00019",
+            "title": "Ocean and atmosphere output of the Bergen Climate Model experiment K01"
+        },
+        {
+            "id": "10.11582/2020.00020",
+            "title": "Ocean and atmosphere output of the Bergen Climate Model experiment K02"
+        },
+        {
+            "id": "10.11582/2020.00018",
+            "title": "Ocean and atmosphere output of the Bergen Climate Model experiment E75"
+        },
+        {
+            "id": "10.11582/2020.00016",
+            "title": "Atmosphere output of the Bergen Climate Model experiment E99"
+        },
+        {
+            "id": "10.11582/2020.00015",
+            "title": "Atmosphere output of the Bergen Climate Model experiment E76"
+        },
+        {
+            "id": "10.11582/2020.00017",
+            "title": "Ocean output of the Bergen Climate Model experiment LI2 "
+        },
+        {
+            "id": "10.11582/2020.00011",
+            "title": "VR-CESM 30x8 Europe 2011-01 to 2014-12"
+        },
+        {
+            "id": "10.11582/2020.00008",
+            "title": "Large-eddy simulations of radiative-convective equilibrium"
+        },
+        {
+            "id": "10.11582/2020.00007",
+            "title": "convection-permitting simulations of a flood event"
+        },
+        {
+            "id": "10.11582/2020.00006",
+            "title": " NorESM1-F simulation of the Marine Isotope Stage 3 stadial-to-interstadial transition"
+        },
+        {
+            "id": "10.11582/2020.00001",
+            "title": "VR-CESM 30x8 Europe 2006-07 to 2010-12 "
+        },
+        {
+            "id": "10.11582/2019.00042",
+            "title": "Simulations for for paper \"Relative Dispersion in the Atmosphere from Reanalysis Winds\""
+        },
+        {
+            "id": "10.11582/2019.00041",
+            "title": "VR-CESM 30x8 Europe re-run 1995-01 and 1995-02"
+        },
+        {
+            "id": "10.11582/2019.00040",
+            "title": "Simulated dataset for MetaRib"
+        },
+        {
+            "id": "10.11582/2019.00039",
+            "title": "VR-CESM 30x8 Europe 2002-01 to 2006-06"
+        },
+        {
+            "id": "10.11582/2019.00038",
+            "title": "Assessment of high-resolution dynamical and statistical models for prediction of sea-ice concentration"
+        },
+        {
+            "id": "10.11582/2019.00037",
+            "title": "LIG_transient_125ka-115ka"
+        },
+        {
+            "id": "10.11582/2019.00035",
+            "title": "30 member ensemble of NorESM1-ME with CMIP5 historical forcing and RCP8.5 beyond 2005"
+        },
+        {
+            "id": "10.11582/2019.00036",
+            "title": "NorCPM ocean reanalysis using weakly-coupled anomaly assimilation of SST and T-S profiles and strongly-coupled anomaly assimilation of SIC"
+        },
+        {
+            "id": "10.11582/2019.00030",
+            "title": "VR-CESM 30x8 Europe 1995-01-01 to 2001-12-27"
+        },
+        {
+            "id": "10.11582/2019.00032",
+            "title": "NorCPM sea ice seasonal hindcast, initialised in Jan, Apr, Jul, Oct throughout 1985-2010 with reanalysis assimilating SST, T-S profile and SIC anomalies"
+        },
+        {
+            "id": "10.11582/2019.00033",
+            "title": "NorCPM ocean seasonal hindcast, initialised in Jan, Apr, Jul, Oct throughout 1985-2010 with reanalysis assimilating SST, T-S profile and SIC anomalies"
+        },
+        {
+            "id": "10.11582/2019.00031",
+            "title": "NorCPM sea ice reanalysis using weakly-coupled anomaly assimilation of SST and T-S profiles and strongly-coupled anomaly assimilation of SIC"
+        },
+        {
+            "id": "10.11582/2019.00029",
+            "title": "Norwegian Climate Prediction Model version 1: reanalysis 1980-2010"
+        },
+        {
+            "id": "10.11582/2019.00028",
+            "title": "Norwegian Climate Prediction Model version 1: seasonal and decadal hindcasts 1985-2010"
+        },
+        {
+            "id": "10.11582/2019.00027",
+            "title": "Intensification of summer precipitation with shorter time-scales in Europe"
+        },
+        {
+            "id": "10.11582/2019.00024",
+            "title": "Simulations for paper \"Changes in the Extratropical Storm Tracks in Response to Changes in SST in an AGCM\""
+        },
+        {
+            "id": "10.11582/2019.00020",
+            "title": "Synthetic drifters from the Nordic Seas"
+        },
+        {
+            "id": "10.11582/2019.00019",
+            "title": "PMIP3-based Last Glacial Maximum (LGM) pre-industrial (PI) anomaly fields for addition to PI ocean model forcing, version 2"
+        },
+        {
+            "id": "10.11582/2019.00018",
+            "title": "Data for \"Potential influence of climate change on grain self-sufficiency at the country level considering adaptation measures\""
+        },
+        {
+            "id": "10.11582/2019.00014",
+            "title": "Ensemble means of the output of NorCPM under two different snow initialization schemes"
+        },
+        {
+            "id": "10.11582/2019.00013",
+            "title": "Simulations for paper \"Global ozone depletion and increase of UV radiation caused by pre-industrial tropical volcanic eruptions\""
+        },
+        {
+            "id": "10.11582/2019.00012",
+            "title": "NorESM1_F simulation of the Marine Isotope Stage 3"
+        },
+        {
+            "id": "10.11582/2019.00011",
+            "title": "Last Glacial Maximum minus  pre-industrial anomaly fields for use in forced ocean modelling, based  on PMIP3"
+        },
+        {
+            "id": "10.11582/2019.00010",
+            "title": "NorESM HAPPI output \u2013 All-Hist/Long raw"
+        },
+        {
+            "id": "10.11582/2019.00008",
+            "title": "BVOC-aerosol-climate feedbacks - simulation data from NorESM"
+        },
+        {
+            "id": "10.11582/2019.00006",
+            "title": "NorESM HAPPI output \u2013 All-Hist raw"
+        },
+        {
+            "id": "10.11582/2019.00003",
+            "title": "NorESM HAPPI output \u2013 Plus20-Future raw"
+        },
+        {
+            "id": "10.11582/2019.00002",
+            "title": "NorESM HAPPI output \u2013 Plus15-Future raw"
+        },
+        {
+            "id": "10.11582/2018.00038",
+            "title": "NorESM-F_LIG115_LIG125_year_4951-5000"
+        },
+        {
+            "id": "10.11582/2018.00034",
+            "title": "NorESM1-F Eemian 130ka simulation"
+        },
+        {
+            "id": "10.11582/2018.00033",
+            "title": "NorESM1-F Eemian 125ka simulation"
+        },
+        {
+            "id": "10.11582/2018.00031",
+            "title": "NorESM1-F Eemian 120ka simulation"
+        },
+        {
+            "id": "10.11582/2018.00035",
+            "title": "NorESM1-F Eemian 115ka simulation"
+        },
+        {
+            "id": "10.11582/2018.00032",
+            "title": "NorESM1_F pre-industrial control experiment"
+        },
+        {
+            "id": "10.11582/2018.00019",
+            "title": "Hydroclimatological WRF model results for \"Diagnosing land-atmosphere coupling in a seasonally snow-covered region (South Norway)\""
+        },
+        {
+            "id": "10.11582/2018.00018",
+            "title": "Flowline model output for Jakobshavn Isbr\u00e6 from 1850-2014 with different changes in forcing parameters"
+        },
+        {
+            "id": "10.11582/2018.00009",
+            "title": "Biogeochemically coupled, 1% CO\u2082 ramp-down simulation starting from the end of year 140 of the CMIP5 1% ramp-up simulation, including a 60 year extension at constant preindustrial CO\u2082"
+        },
+        {
+            "id": "10.11582/2018.00010",
+            "title": "Radiatively coupled, 1% CO\u2082 ramp-down simulation starting from the end of year 140 of the CMIP5 1% ramp-up simulation, including a 60 year extension at constant preindustrial CO\u2082"
+        },
+        {
+            "id": "10.11582/2018.00011",
+            "title": "Fully coupled, 1% CO\u2082 ramp-down simulation starting from the end of year 140 of the CMIP5 1% ramp-up simulation, including a 60 year extension at constant preindustrial CO\u2082"
+        },
+        {
+            "id": "10.11582/2018.00007",
+            "title": "The outputs from GREENICE coodinated AGCM hindcast experiments driven by NOAA OI SST and sea ice data"
+        },
+        {
+            "id": "10.11582/2018.00001",
+            "title": "Meteorological forcing data and model settings for \"Modelling hydrologic impacts of light absorbing aerosol deposition on snow at the catchment scale\""
+        },
+        {
+            "id": "10.11582/2017.00026",
+            "title": "Bergen Climate Model simulation output prepared for the BlueArc project to study feedbacks of Arctic sea ice decline on the coupled climate - baseline experiments"
+        },
+        {
+            "id": "10.11582/2017.00024",
+            "title": "MIT-GCM deglaciation simulations with ice-sheet based hosing scenarios prepared for ARCTREC"
+        },
+        {
+            "id": "10.11582/2017.00022",
+            "title": "Supermodelling with Noresm-bccrfast, EC-Earth and Mpi-Esm"
+        },
+        {
+            "id": "10.11582/2017.00013",
+            "title": "Effects of shrub cover increase on the near surface atmosphere in northern Fennoscandia"
+        },
+        {
+            "id": "10.11582/2017.00010",
+            "title": "Simulated data set (neverland)"
+        },
+        {
+            "id": "10.11582/2017.00009",
+            "title": "Filefjell forcing"
+        },
+        {
+            "id": "10.11582/2017.00008",
+            "title": "EMSES - Plasma-rocket simulations"
+        },
+        {
+            "id": "10.11582/2017.00003",
+            "title": "The idealized Weddell Sea continental shelf model"
+        },
+        {
+            "id": "10.11582/2017.00002",
+            "title": "NorESM output prepared for VOLCANOES4FUTURE - NO-VOLC reference experiment"
+        },
+        {
+            "id": "10.11582/2016.00013",
+            "title": "Norwegian Earth System Model (low resolution) Last Interglacial, 130ka simulation"
+        },
+        {
+            "id": "10.11582/2016.00012",
+            "title": "Norwegian Earth System Model (low resolution) Last Interglacial, 130ka simulation, PMIP GHG"
+        },
+        {
+            "id": "10.11582/2016.00010",
+            "title": "Norwegian Earth System Model (low resolution) Last Interglacial, 125ka simulation, PMIP GHG"
+        },
+        {
+            "id": "10.11582/2016.00011",
+            "title": "Norwegian Earth System Model (low resolution) Last Interglacial, 120ka simulation"
+        },
+        {
+            "id": "10.11582/2016.00009",
+            "title": "Norwegian Earth System Model (low resolution) Last Interglacial, 125ka simulation"
+        },
+        {
+            "id": "10.11582/2016.00008",
+            "title": "Norwegian Earth System Model (low resolution) Last Interglacial, 115ka simulation"
+        },
+        {
+            "id": "10.11582/2016.00007",
+            "title": "Norwegian Earth System Model (low resolution) Pre-Industrial simulation "
+        },
+        {
+            "id": "10.11582/2016.00005",
+            "title": "Arctic sea ice simulations from TOPAZ4 assimilating SMOS-Ice"
+        },
+        {
+            "id": "10.11582/2015.00029",
+            "title": "NorESM1-M output prepared for EXPLAIN project - reference ensemble"
+        },
+        {
+            "id": "10.11582/2015.00025",
+            "title": "NorESM1-ME CMIP5 rcp85  (4.2) r1 raw output"
+        },
+        {
+            "id": "10.11582/2015.00028",
+            "title": "NorESM1-ME CMIP5 rcp26  (4.3) r1 raw output"
+        },
+        {
+            "id": "10.11582/2015.00026",
+            "title": "NorESM1-ME CMIP5 rcp6  (4.4) r1 raw output"
+        },
+        {
+            "id": "10.11582/2015.00027",
+            "title": "NorESM1-ME CMIP5 rcp45  (4.1) r1 raw output"
+        },
+        {
+            "id": "10.11582/2015.00024",
+            "title": "NorESM1-ME CMIP5 esmrcp85 (5.3) r1 raw output"
+        },
+        {
+            "id": "10.11582/2015.00023",
+            "title": "NorESM1-ME CMIP5 esmFdbk1 (5.5a) r1 raw output"
+        },
+        {
+            "id": "10.11582/2015.00022",
+            "title": "NorESM1-ME CMIP5 esmFixClim1 (5.4a) r1 raw output"
+        },
+        {
+            "id": "10.11582/2015.00020",
+            "title": "NorESM1-ME CMIP5 esmHistorical  (5.2) r1 raw output"
+        },
+        {
+            "id": "10.11582/2015.00021",
+            "title": "NorESM1-ME CMIP5 historical  (3.2) r1 raw output"
+        },
+        {
+            "id": "10.11582/2015.00019",
+            "title": "NorESM1-ME CMIP5 esmControl  (5.1) r1 raw output"
+        },
+        {
+            "id": "10.11582/2015.00018",
+            "title": "NorESM1-ME CMIP5 1pctCO2 (6.1) r1 raw output"
+        },
+        {
+            "id": "10.11582/2015.00017",
+            "title": "NorESM1-ME CMIP5 piControl  (3.1) r1 raw output"
+        },
+        {
+            "id": "10.11582/2015.00014",
+            "title": "SVIM ocean hindcast archive"
+        },
+        {
+            "id": "10.11582/2015.00011",
+            "title": "NorESM1-M CMIP5 historicalGHG (7.2) r1 raw output"
+        },
+        {
+            "id": "10.11582/2015.00012",
+            "title": "NorESM1-M CMIP5 rcp45 (4.1) r1 raw output"
+        },
+        {
+            "id": "10.11582/2015.00006",
+            "title": "NorESM1-M CMIP5 sst2030 (2.1) r1 raw output"
+        },
+        {
+            "id": "10.11582/2015.00002",
+            "title": "NorESM1-M CMIP5 historicalMisc  (7.3) r1 raw output"
+        },
+        {
+            "id": "10.11582/2015.00003",
+            "title": "NorESM1-M CMIP5 historicalNat  (7.1) r1 raw output"
+        },
+        {
+            "id": "10.11582/2015.00005",
+            "title": "NorESM1-M CMIP5 rcp60 (4.4) r1 raw output"
+        },
+        {
+            "id": "10.11582/2015.00004",
+            "title": "NorESM1-M CMIP5 rcp26 (4.3) r1 raw output"
+        },
+        {
+            "id": "10.11582/2015.00008",
+            "title": "NorESM1-M CMIP5 sstClim4xCo2 (6.2b) r1 raw output"
+        },
+        {
+            "id": "10.11582/2015.00001",
+            "title": "NorESM1-M CMIP5 amip4xCO2 (6.5) r1 raw output"
+        },
+        {
+            "id": "10.11582/2015.00007",
+            "title": "NorESM1-M CMIP5 sstClim (6.2a) r1 raw output"
+        },
+        {
+            "id": "10.11582/2015.00009",
+            "title": "NorESM1-M CMIP5 sstClimAerosol (6.4a) r1 raw output"
+        },
+        {
+            "id": "10.11582/2014.00017",
+            "title": "NorESM1-M CMIP5 historicalExt (3.2) r3 raw output"
+        },
+        {
+            "id": "10.11582/2014.00016",
+            "title": "NorESM1-M CMIP5 rcp85 (4.2) r1 raw output"
+        },
+        {
+            "id": "10.11582/2014.00015",
+            "title": "NorESM1-M CMIP5 historical (3.2) r3 raw output"
+        },
+        {
+            "id": "10.11582/2014.00013",
+            "title": "NorESM1-M CMIP5 amip (3.2) r2 raw output"
+        },
+        {
+            "id": "10.11582/2014.00012",
+            "title": "NorESM1-M CMIP5 amip (3.2) r3 raw output"
+        },
+        {
+            "id": "10.11582/2014.00014",
+            "title": "NorESM1-M CMIP5 amip (3.2) r1 raw output"
+        },
+        {
+            "id": "10.11582/2014.00010",
+            "title": "NorESM1-M CMIP5 abrupt4xCO2 (6.3) r1 raw output"
+        },
+        {
+            "id": "10.11582/2014.00011",
+            "title": "NorESM1-M CMIP5 1pctCO2 (6.1) r1 raw output"
+        },
+        {
+            "id": "10.11582/2014.00007",
+            "title": "NorESM1-M CMIP5 historical (3.2) r1 raw output"
+        },
+        {
+            "id": "10.11582/2014.00008",
+            "title": "NorESM1-M CMIP5 historicalExt (3.2) r2 raw output"
+        },
+        {
+            "id": "10.11582/2014.00005",
+            "title": "NorESM1-M CMIP5 historical (3.2) r2 raw output"
+        },
+        {
+            "id": "10.11582/2014.00006",
+            "title": "NorESM1-M CMIP5 piControl (3.1) r1 raw output"
+        },
+        {
+            "id": "10.11582/2019.00026",
+            "title": "Permafrost distribution in steep slopes in Norway"
+        }
+    ],
+    "Software": [
+        {
+            "id": "10.11582/2021.00038",
+            "title": "Code and software used in the article \"Profiling the baseline performance and limits of machine learning models for adaptive immune receptor repertoire classification\""
+        },
+        {
+            "id": "10.11582/2020.00053",
+            "title": "Master Thesis Data"
+        },
+        {
+            "id": "10.11582/2018.00017",
+            "title": "Vestbakken Volcanic Province - Surfaces and Fault Interpretations"
+        },
+        {
+            "id": "10.11582/2017.00011",
+            "title": "ParVec Benchmark Suite"
+        },
+        {
+            "id": "10.11582/2014.00009",
+            "title": "A Study of Energy and Locality Effects using Space-filling Curves"
+        }
+    ]
+}

@@ -1,17 +1,18 @@
+from importlib import resources
 import re, threading,time
 import rohub
 import json
 import sys
 from haversine import inverse_haversine , Direction
 
-rohub.login(username="username", password="password")
+rohub.login(username="georgehadib@gmail.com", password="George123#")
 #roro = rohub.search_ros_by_id("c9d776f7-58a2-4576-b4c1-65913d1dd896")
 #print (roro)
 #licenses=show_available_licenses()
 #print(licenses)
 filename = ""
 if (len(sys.argv) == 1):
-    f = open("Massive-ROs-Creator\ROs.json", "r")
+    f = open("GIT\Massive-ROs-Creator\ROs.json", "r")
 elif (len(sys.argv) == 2):
     try:
         f = open("GIT\Massive-ROs-Creator\\"+sys.argv[1], "r")
@@ -278,7 +279,7 @@ def ros_creator():
 
             dataset.set_license("NLOD-1.0")
         #new_ro.set_authors(agents=["George"])
-
+        #rohub.ros_add_annotations(identifier = new_ro, resources=dataset, body_specification_json=)
         #new_ro.add_annotations()
         
         #ro.add_author("Geo H.")

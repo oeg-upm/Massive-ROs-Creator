@@ -11,8 +11,8 @@ field = ""
 subfield = ""
 description_keywords = []
 categories = ["Experiment", "Observation", "Model", "Simulation", "Software", "Image"]
-#Here you should enter your local chromedriver location
-PATH = r'Your local ChromeDriver'
+
+PATH = r'C:\Users\Geo\Downloads\chromedriver_win32\chromedriver.exe'
 driver = webdriver.Chrome(PATH)
 link = "https://archive.sigma2.no/pages/public/search.jsf"
 
@@ -214,7 +214,7 @@ print(len(list_of_ids.get("Model")))
 print(len(list_of_ids.get("Observation")))
 print(len(list_of_ids.get("Simulation")))
 
-f = open("Massive-ROs-Creator\ToScrape.json", "w")
+f = open("GIT\Massive-ROs-Creator\ToScrape.json", "w")
 f.write(json.dumps(list_of_ids, indent=4, sort_keys=True))
 f.close()
 driver.quit()

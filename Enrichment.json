@@ -1,0 +1,238 @@
+{
+    "response": {
+        "browseResults": null,
+        "header": {
+            "fields": null,
+            "locale": {
+                "$": "en_US"
+            },
+            "page": {
+                "$": 1
+            },
+            "query": {
+                "$": "(oaftype exact result) and (resulttypeid exact dataset) and (pidclassid exact \"doi\" and pid exact \"10.11582/2021.00093\")"
+            },
+            "size": {
+                "$": 100
+            },
+            "total": {
+                "$": 1
+            }
+        },
+        "results": {
+            "result": [
+                {
+                    "header": {
+                        "dri:dateOfCollection": {
+                            "$": "2021-10-27T07:37:47+0000"
+                        },
+                        "dri:dateOfTransformation": {
+                            "$": "2021-10-27T07:37:47+0000"
+                        },
+                        "dri:objIdentifier": {
+                            "$": "doi_________::c35f844ee7cbf037b8594629f2ed0b90"
+                        }
+                    },
+                    "metadata": {
+                        "oaf:entity": {
+                            "@xsi:schemaLocation": "http://namespace.openaire.eu/oaf https://www.openaire.eu/schema/1.0/oaf-1.0.xsd",
+                            "oaf:result": {
+                                "bestaccessright": {
+                                    "@classid": "UNKNOWN",
+                                    "@classname": "not available",
+                                    "@schemeid": "dnet:access_modes",
+                                    "@schemename": "dnet:access_modes"
+                                },
+                                "children": {
+                                    "instance": {
+                                        "@id": "openaire____::55045bd2a65019fd8e6741a755395c8c",
+                                        "accessright": {
+                                            "@classid": "UNKNOWN",
+                                            "@classname": "not available",
+                                            "@schemeid": "dnet:access_modes",
+                                            "@schemename": "dnet:access_modes"
+                                        },
+                                        "collectedfrom": {
+                                            "@id": "openaire____::9e3be59865b2c1c335d32dae2fe7b254",
+                                            "@name": "Datacite"
+                                        },
+                                        "dateofacceptance": {
+                                            "$": "2021-01-01"
+                                        },
+                                        "hostedby": {
+                                            "@id": "openaire____::55045bd2a65019fd8e6741a755395c8c",
+                                            "@name": "Unknown Repository"
+                                        },
+                                        "instancetype": {
+                                            "@classid": "0021",
+                                            "@classname": "Dataset",
+                                            "@schemeid": "dnet:publication_resource",
+                                            "@schemename": "dnet:publication_resource"
+                                        },
+                                        "pid": {
+                                            "$": "10.11582/2021.00093",
+                                            "@classid": "doi",
+                                            "@classname": "Digital Object Identifier",
+                                            "@inferred": false,
+                                            "@provenanceaction": "sysimport:actionset",
+                                            "@schemeid": "dnet:pid_types",
+                                            "@schemename": "dnet:pid_types",
+                                            "@trust": "0.9"
+                                        },
+                                        "refereed": {
+                                            "@classid": "0000",
+                                            "@classname": "UNKNOWN",
+                                            "@schemeid": "dnet:review_levels",
+                                            "@schemename": "dnet:review_levels"
+                                        },
+                                        "webresource": {
+                                            "url": {
+                                                "$": "https://dx.doi.org/10.11582/2021.00093"
+                                            }
+                                        }
+                                    }
+                                },
+                                "collectedfrom": {
+                                    "@id": "openaire____::9e3be59865b2c1c335d32dae2fe7b254",
+                                    "@name": "Datacite"
+                                },
+                                "creator": {
+                                    "$": "Alves Da Silva, Diana Carolina",
+                                    "@name": "Diana Carolina",
+                                    "@rank": "1",
+                                    "@surname": "Alves Da Silva"
+                                },
+                                "datainfo": {
+                                    "deletedbyinference": {
+                                        "$": false
+                                    },
+                                    "inferenceprovenance": {
+                                        "$": "null"
+                                    },
+                                    "inferred": {
+                                        "$": false
+                                    },
+                                    "provenanceaction": {
+                                        "@classid": "sysimport:actionset",
+                                        "@classname": "Harvested",
+                                        "@schemeid": "dnet:provenanceActions",
+                                        "@schemename": "dnet:provenanceActions"
+                                    },
+                                    "trust": {
+                                        "$": 0.9
+                                    }
+                                },
+                                "dateofacceptance": {
+                                    "$": "2021-01-01"
+                                },
+                                "description": [
+                                    {
+                                        "$": "This dataset contains data on laboratory Direct Shear Testing performed in 2020-2021 on material analogous to the Vette fault gouge (Smeaheia), with applications for Carbon Storage. The resulting thesis can be found here: http://urn.nb.no/URN:NBN:no-89352 For more details please refer to the thesis document and README file contained in the dataset."
+                                    },
+                                    {
+                                        "$": "1 application/x-7z-compressed, totaling ...... 801.54 MB<br>1 text/plain, totaling ...... 32 B"
+                                    }
+                                ],
+                                "language": {
+                                    "@classid": "und",
+                                    "@classname": "Undetermined",
+                                    "@schemeid": "dnet:languages",
+                                    "@schemename": "dnet:languages"
+                                },
+                                "originalId": {
+                                    "$": "10.11582/2021.00093"
+                                },
+                                "pid": {
+                                    "$": "10.11582/2021.00093",
+                                    "@classid": "doi",
+                                    "@classname": "Digital Object Identifier",
+                                    "@inferred": false,
+                                    "@provenanceaction": "sysimport:actionset",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "@trust": "0.9"
+                                },
+                                "publisher": {
+                                    "$": "Archive2014"
+                                },
+                                "relevantdate": [
+                                    {
+                                        "$": "2021-01-30",
+                                        "@classid": "created",
+                                        "@classname": "created",
+                                        "@schemeid": "dnet:dataCite_date",
+                                        "@schemename": "dnet:dataCite_date"
+                                    },
+                                    {
+                                        "$": "2021-01-01",
+                                        "@classid": "issued",
+                                        "@classname": "issued",
+                                        "@schemeid": "dnet:dataCite_date",
+                                        "@schemename": "dnet:dataCite_date"
+                                    }
+                                ],
+                                "rels": null,
+                                "resourcetype": {
+                                    "@classid": "UNKNOWN",
+                                    "@classname": "UNKNOWN",
+                                    "@schemeid": "dnet:dataCite_resource",
+                                    "@schemename": "dnet:dataCite_resource"
+                                },
+                                "resulttype": {
+                                    "@classid": "dataset",
+                                    "@classname": "dataset",
+                                    "@schemeid": "dnet:result_typologies",
+                                    "@schemename": "dnet:result_typologies"
+                                },
+                                "subject": [
+                                    {
+                                        "$": "Natural sciences",
+                                        "@classid": "keyword",
+                                        "@classname": "keyword",
+                                        "@schemeid": "dnet:subject_classification_typologies",
+                                        "@schemename": "dnet:subject_classification_typologies"
+                                    },
+                                    {
+                                        "$": "FOS: Natural sciences",
+                                        "@classid": "keyword",
+                                        "@classname": "keyword",
+                                        "@schemeid": "dnet:subject_classification_typologies",
+                                        "@schemename": "dnet:subject_classification_typologies"
+                                    },
+                                    {
+                                        "$": "Earth science",
+                                        "@classid": "keyword",
+                                        "@classname": "keyword",
+                                        "@schemeid": "dnet:subject_classification_typologies",
+                                        "@schemename": "dnet:subject_classification_typologies"
+                                    },
+                                    {
+                                        "$": "Geology",
+                                        "@classid": "keyword",
+                                        "@classname": "keyword",
+                                        "@schemeid": "dnet:subject_classification_typologies",
+                                        "@schemename": "dnet:subject_classification_typologies"
+                                    },
+                                    {
+                                        "$": "FOS: Earth and related environmental sciences",
+                                        "@classid": "keyword",
+                                        "@classname": "keyword",
+                                        "@schemeid": "dnet:subject_classification_typologies",
+                                        "@schemename": "dnet:subject_classification_typologies"
+                                    }
+                                ],
+                                "title": {
+                                    "$": "Experimental study addressing fault slip Implications for derisking of the Smeaheia potential CO2 storage site",
+                                    "@classid": "main title",
+                                    "@classname": "main title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title"
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

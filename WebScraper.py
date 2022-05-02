@@ -5,10 +5,10 @@ from html.parser import HTMLParser
 import time
 import re
 
-#Here you have to enter your local chrome driver location
-PATH = r'Your chromedriver local link'
+
+PATH = r'C:\Users\Geo\Downloads\chromedriver_win32\chromedriver.exe'
 driver = webdriver.Chrome(PATH)
-f = open("Massive-ROs-Creator\ToScrape.json", "r")
+f = open("GIT\Massive-ROs-Creator\ToScrape.json", "r")
 entry_json = f.read()
 f.close()
 entry_dictionary = json.loads(entry_json)
@@ -183,7 +183,7 @@ for category in entry_dictionary.keys():
 
 #print (RO)
 #app_json = json.dumps(RO, sort_keys=True)
-f = open("Massive-ROs-Creator\ROs.json", "w")
+f = open("GIT\Massive-ROs-Creator\ROs.json", "w")
 f.write(json.dumps(result_list, indent=5, sort_keys=True))
 f.close()
 
