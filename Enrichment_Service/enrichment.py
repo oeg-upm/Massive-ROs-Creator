@@ -3124,13 +3124,16 @@ def enrich_RO (RO: dict):
                     #print (creator_list)
             else:
                     creator_list = []
-            
-            for creator in enrichment_RO_raw.get("creator"):
-            
-                    #print (creator)
-                    if type(creator) == dict:
-                            creator_list.append(creator)
-            #print (creator_list)
+            print(enrichment_RO_raw.get("creator"))
+            if type(enrichment_RO_raw.get("creator")) == list:
+              for creator in enrichment_RO_raw.get("creator"):
+              
+                      #print (creator)
+                      if type(creator) == dict:
+                              creator_list.append(creator)
+              #print (creator_list)
+            elif type(enrichment_RO_raw.get("creator"))==dict:
+              creator_list.append(enrichment_RO_raw.get("creator"))
             ro["Creator"] = creator_list
     ####################All creator ????????????
 
@@ -3157,5 +3160,31 @@ def enrich_RO (RO: dict):
                     if name not in subject_list:
                             subject_list.append(name)
             ro["research area"] = subject_list
-  return (ro)
+  
+  for dictionary in RO.get("@graph"):
+
+    try:
+      found = "Dataset" in dictionary.get("@type") and "https" in dictionary.get("@id")
+      if found:
+        RO["@graph"].remove(dictionary)
+        print(dictionary)
+        for creator in ro["Creator"]:
+          
+          if type(dictionary.get("creator")) == list:
+            aux_bool = False
+            for creator_dict in dictionary.get("creator"):
+               if creator.get("@orcid_pending").upper() in creator_dict.get("id"):
+                 aux_bool = True
+            if not (aux_bool):
+              dictionary["creator"].append({"id":creator.get("@orcid_pending")})
+            dictionary["creator"].append(creator.get("@orcid_pending"))
+          elif type(dictionary.get("creator")) == dict and creator.get("@orcid_pending").upper() not in dictionary.get("creator").get("@id").upper():
+            dictionary["creator"] = [dictionary.get("creator"),{"@id":"http://orcid.org/"+creator.get("@orcid_pending")}]
+      #print (dictionary)
+      #print (RO["@graph"])
+      RO["@graph"].append(dictionary)
+      #print (RO["@graph"])
+    except:
+      pass
+  return (RO)
   #print (ro)

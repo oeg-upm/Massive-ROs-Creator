@@ -144,7 +144,7 @@ point_4 = [westlimit,southlimit]
 coordinates = [point_1,point_2,point_3,point_4]
 print (coordinates)
 
-'''
+
 
 
 f = open("GIT\Massive-ROs-Creator\ROs.json", "r")
@@ -156,7 +156,7 @@ entry_dictionary = json.loads(entry_json)
 print (len(entry_dictionary))
 
 
-
+'''
 
 
 
@@ -192,7 +192,7 @@ print (len(entry_dictionary))
 dicti = {'cat': [{ 'id':1231412,'2344234':12309},{ 'id':1231412,'2344234':12309}]}
 if ({ 'id':1231412,'2344234':12309} in dicti.get('cat')):
     print (True)
-'''
+
 from threading import Thread
 import time
 import sys
@@ -210,7 +210,7 @@ t2= Thread(target=time2)
 t2.setDaemon(True)
 t1.start()
 t2.start()
-
+'''
 
 
 
@@ -299,3 +299,6 @@ print (s)
 #print (test_s[test_s.find("(")+1:test_s.find(")")]) 
 
 
+dict1= [{'creator':"lkfjslkjf",'id':"jhafdkjhak"},{'creator':"lkfjsl22kjf",'id':"jhaf213123dkjhak"}]
+
+print ("lkfjsl22kjf"in dict1)

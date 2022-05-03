@@ -18,12 +18,12 @@ class Server (BaseHTTPRequestHandler):
 
             length = int(self.headers.get_all('Content-Length')[0])
             RO_Crate = json.loads(self.rfile.read(length))
-            print(RO_Crate,"HEEEEEEEEEEEEEEEEEEEEEEEEEERE")
+            #print(RO_Crate,"HEEEEEEEEEEEEEEEEEEEEEEEEEERE")
 
             rich_RO=enrichment.enrich_RO(RO_Crate)
             self._set_headers()
             self.wfile.write(json.dumps(rich_RO).encode('utf-8'))
-            print(rich_RO)
+            #print(rich_RO)
             return 
 
     
