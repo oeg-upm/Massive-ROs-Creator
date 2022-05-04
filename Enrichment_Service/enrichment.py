@@ -3124,7 +3124,7 @@ def enrich_RO (RO: dict):
                     #print (creator_list)
             else:
                     creator_list = []
-            print(enrichment_RO_raw.get("creator"))
+            #print(enrichment_RO_raw.get("creator"))
             if type(enrichment_RO_raw.get("creator")) == list:
               for creator in enrichment_RO_raw.get("creator"):
               
@@ -3161,30 +3161,52 @@ def enrich_RO (RO: dict):
                             subject_list.append(name)
             ro["research area"] = subject_list
   
+############################################## Creation of the new RO-Crate ###################################################
+
   for dictionary in RO.get("@graph"):
 
     try:
       found = "Dataset" in dictionary.get("@type") and "https" in dictionary.get("@id")
       if found:
         RO["@graph"].remove(dictionary)
-        print(dictionary)
+        #print(dictionary)
         for creator in ro["Creator"]:
           
           if type(dictionary.get("creator")) == list:
             aux_bool = False
+
             for creator_dict in dictionary.get("creator"):
-               if creator.get("@orcid_pending").upper() in creator_dict.get("id"):
+
+               if creator.get("@orcid_pending").upper() in creator_dict.get("@id").upper():
                  aux_bool = True
+                 print("We are here")
+
+              
             if not (aux_bool):
-              dictionary["creator"].append({"id":creator.get("@orcid_pending")})
-            dictionary["creator"].append(creator.get("@orcid_pending"))
+              dictionary["creator"].append({"@id":"http://orcid.org/"+creator.get("@orcid_pending")})
           elif type(dictionary.get("creator")) == dict and creator.get("@orcid_pending").upper() not in dictionary.get("creator").get("@id").upper():
             dictionary["creator"] = [dictionary.get("creator"),{"@id":"http://orcid.org/"+creator.get("@orcid_pending")}]
       #print (dictionary)
       #print (RO["@graph"])
-      RO["@graph"].append(dictionary)
+      if type(dictionary.get('publisher')) == dict and not ro.get('publisher') in dictionary.get('publisher').get('@id'):
+        dictionary['publisher'] = [dictionary.get('publisher'),{'@id': ro.get('publisher')}]
+      elif type(dictionary.get('publisher')) == list:
+        aux_bool = False
+        for publisher in dictionary.get('publisher'):
+          if ro.get('publisher') in publisher.get('@id'):
+            aux_bool = True
+        if not (aux_bool):
+          dictionary['publisher'].append({'@id': ro.get('publisher')})
+        date = ro.get("Children Results")[0].get('date_of_acceptance')
+        dictionary['datePublished'] = date
+
+        dictionary['dateCreated'] = ro.get('date_of_collection')
+        dictionary['dateModified'] = ro.get('date_of_transformation')
+        RO["@graph"].append(dictionary)
       #print (RO["@graph"])
     except:
       pass
+
+  print(ro)
   return (RO)
   #print (ro)
